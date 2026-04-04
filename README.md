@@ -1,6 +1,8 @@
 # Enhanced NPTEL Learning Platform
 
-A Flask-based adaptive learning platform that combines structured video learning, AI-generated quizzes, conceptual review, learner adaptation, and personalized revision support.
+An adaptive learning platform that converts passive video watching into a personalized mastery loop.
+It combines in-video checkpoints, concept-focused quiz generation, Bayesian mastery tracking, and behavior-aware difficulty adaptation.
+The engine is reliability-first: when transcript or LLM services fail, deterministic fallbacks keep the learner journey uninterrupted.
 
 ## Architecture
 

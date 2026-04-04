@@ -6,6 +6,13 @@ A Flask-based adaptive learning platform that combines structured video learning
 
 For full system architecture, module boundaries, adaptive-engine pipeline, and request lifecycle diagrams, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
+## Why this project stands out
+
+- Adaptive intelligence stack: BKT mastery + speed adaptation + behavior clustering.
+- Concept-first assessment quality: basic-to-advanced question progression with anti-generic prompt constraints.
+- Reliability by design: graceful fallback paths for transcript and LLM failures.
+- End-to-end product depth: video checkpoints, adaptive quiz engine, review analytics, and heatmap-driven insights.
+
 ## What this project does
 
 This application is designed to turn a topic into a guided learning flow:
@@ -194,6 +201,7 @@ This section summarizes the core algorithms and computational logic used by the 
 The mastery engine maintains per-user, per-concept latent knowledge probability and updates it after each quiz attempt.
 
 Default parameters:
+
 - Initial mastery: \(P(L_0)=0.3\)
 - Learning transition: \(P(T)=0.2\)
 - Guess probability: \(P(G)=0.2\)
@@ -214,7 +222,7 @@ P(L_n|Incorrect)=\frac{P(L_n)P(S)}{P(L_n)P(S) + (1-P(L_n))(1-P(G))}
 Learning transition after evidence update:
 
 \[
-P(L_{n+1})=P(L_n|Obs) + (1-P(L_n|Obs))P(T)
+P(L\_{n+1})=P(L_n|Obs) + (1-P(L_n|Obs))P(T)
 \]
 
 Where Obs is either Correct or Incorrect.
@@ -228,7 +236,7 @@ Score(\%)=\frac{CorrectCount}{QuestionCount} \times 100
 \]
 
 \[
-AvgTime=\frac{\sum_{i=1}^{Q} t_i}{Q}
+AvgTime=\frac{\sum\_{i=1}^{Q} t_i}{Q}
 \]
 
 where \(t_i\) is time spent on question \(i\), and \(Q\) is number of questions in that attempt.
@@ -236,11 +244,13 @@ where \(t_i\) is time spent on question \(i\), and \(Q\) is number of questions 
 ### 3) Speed-adaptive difficulty policy
 
 Speed labels are computed from average response time using thresholds:
+
 - Fast if \(AvgTime < 10s\)
 - Slow if \(AvgTime > 25s\)
 - Steady otherwise
 
 Difficulty transition rules:
+
 - If score \(\ge 80\) and Fast, increase one level.
 - If score \(< 50\) and Slow, decrease one level.
 - Else keep current level.
@@ -256,6 +266,7 @@ Question count is sampled from a range determined by speed and adjusted by maste
 - Fast: base range [7, 9]
 
 Mastery refinement:
+
 - If mastery \(< 0.35\), upper bound increases by 1 (capped at 15).
 - If mastery \(> 0.75\), lower bound decreases by 1 (floored at 7).
 
@@ -264,17 +275,20 @@ Final question count is selected uniformly at random from the final integer inte
 ### 5) Behavior clustering (micro-pattern modeling)
 
 The interaction clustering model uses KMeans with:
+
 - Number of clusters: 3
-- Initialization runs: \(n\_init=10\)
+- Initialization runs: \(n_init=10\)
 - Random seed: 42
 
 Feature vector:
+
 - pause_count
 - rewatch_count
 - skip_ratio
 - watch_percentage
 
 Cluster outputs are mapped to behavior labels:
+
 - Steady Learner
 - Detail-Oriented
 - Fast-Paced
@@ -284,6 +298,7 @@ This cluster label is then fed into recommendation messaging and adaptation cont
 ### 6) Conceptual quiz generation constraints
 
 The generator enforces these constraints in prompt policy:
+
 - Topic-concept focus only (no study-habit or exam-strategy questions).
 - Basic \(\rightarrow\) intermediate \(\rightarrow\) advanced progression.
 - One correct answer + 3 plausible distractors tied to misconceptions.
@@ -297,12 +312,14 @@ Duplicate suppression is done by normalizing stems (trim + lowercase + whitespac
 For each response, the evaluator asks the local LLM to verify semantic correctness and generate one-line feedback. If LLM verification fails, a deterministic fallback compares normalized strings.
 
 This hybrid strategy provides:
+
 - semantic robustness when wording differs,
 - deterministic safety when model calls fail.
 
 ### 8) Heatmap feature engineering
 
 Per-topic dashboard heatmap rows are aggregated from historical attempts:
+
 - mean score,
 - mean mastery,
 - mean response time,

@@ -32,6 +32,7 @@ flowchart LR
 ## 2) Layered architecture
 
 ### Presentation layer
+
 - HTML views in `frontend/templates/`.
 - CSS and client-side behavior in `static/`.
 - Dynamic pages:
@@ -41,6 +42,7 @@ flowchart LR
   - quiz review history.
 
 ### Application layer (`app.py`)
+
 - Owns HTTP routes and orchestration.
 - Builds adaptive quiz payloads from:
   - user state,
@@ -50,6 +52,7 @@ flowchart LR
 - Persists attempt snapshots and dashboard aggregates.
 
 ### Domain services (`backend/`)
+
 - `backend/quiz/quiz_generator.py`:
   - conceptual question generation,
   - dynamic question count and difficulty,
@@ -68,6 +71,7 @@ flowchart LR
   - final next-step recommendation synthesis.
 
 ### Infrastructure layer
+
 - Local LLM runtime: Ollama (`llama3.2`).
 - Transcript context fetch via YouTube transcript API.
 - JSON-file persistence for deterministic local execution.
@@ -177,7 +181,9 @@ sequenceDiagram
 ## 5) Core runtime engines
 
 ### 5.1 Quiz generation engine
+
 Input:
+
 - topic id + title,
 - watch-time transcript context,
 - current difficulty,
@@ -186,38 +192,46 @@ Input:
 - recent question stems to avoid.
 
 Output:
+
 - adaptive quiz payload,
 - conceptual progression (basic -> advanced),
 - unique stem set with hints.
 
 Failure behavior:
+
 - falls back to deterministic conceptual question bank if LLM/transcript fails.
 
 ### 5.2 Evaluation engine
+
 - Primary path: LLM semantic verification of selected answer vs expected answer.
 - Fallback path: normalized string-match correctness if model unavailable.
 - Produces score, average time, and per-question feedback.
 
 ### 5.3 Mastery engine (BKT)
+
 - Maintains probability of latent concept mastery per user/topic.
 - Updates mastery after each attempt using Bayesian observation update + transition.
 
 ### 5.4 Speed adaptation engine
+
 - Computes speed label from response latency thresholds.
 - Applies policy-based difficulty transition for the next attempt.
 
 ### 5.5 Behavior clustering engine
+
 - Logs micro interactions (pause/rewatch/skip/watch%).
 - Predicts behavior archetype using KMeans model.
 - Feeds recommendation tone and adaptation context.
 
 ### 5.6 Recommendation and insight engines
+
 - Recommendation engine returns action-level learning guidance.
 - Insight engine returns AI-authored weak-topic focus and cheat-sheet style next steps.
 
 ## 6) API contract overview
 
 ### Web pages
+
 - `GET /dashboard`
 - `GET /video/<topic_id>`
 - `GET /quiz/<topic_id>`
@@ -225,6 +239,7 @@ Failure behavior:
 - `GET /quiz-review/<attempt_id>`
 
 ### JSON APIs
+
 - `POST /api/video-track`
 - `GET /api/user-progress/<video_id>`
 - `GET /api/quiz-data/<topic_id>`
@@ -242,12 +257,14 @@ Failure behavior:
 ## 8) Request lifecycle snapshots
 
 ### A) Video tracking lifecycle
+
 1. Frontend sends interaction snapshot to `POST /api/video-track`.
 2. Server logs micro-pattern telemetry.
 3. Server updates watch-state progress.
 4. Behavior features become available for subsequent cluster prediction.
 
 ### B) Quiz generation lifecycle
+
 1. Server loads user mastery + recent attempts.
 2. Difficulty/speed context is derived.
 3. Generator requests conceptual MCQs from LLM with anti-generic constraints.
@@ -255,6 +272,7 @@ Failure behavior:
 5. Timers/hints metadata added and returned to UI.
 
 ### C) Quiz submission lifecycle
+
 1. Server evaluates each response.
 2. Computes score/time metrics.
 3. Updates speed profile + mastery estimate.

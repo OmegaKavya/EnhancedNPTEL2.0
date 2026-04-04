@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Flask / app runtime
+instance/
+*.log
+logs/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Ollama / local model artifacts
+ollama_models/
+
+# Temporary files
+*.tmp
+*.swp

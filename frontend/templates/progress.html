@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Progress - Edubox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .progress-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .attempt-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.2s;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .attempt-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .topic-badge {
+            background: rgba(0, 109, 91, 0.1);
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .metric-group {
+            display: flex;
+            gap: 30px;
+            flex: 1;
+        }
+
+        .metric-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .adaptation-tag {
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .tag-fast {
+            background: #e1f5fe;
+            color: #0288d1;
+        }
+
+        .tag-steady {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .tag-slow {
+            background: #fff3e0;
+            color: #ef6c00;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 100px 20px;
+            background: white;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="{{ url_for('index') }}" class="logo"
+            style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            Edubox
+        </a>
+        <div class="nav-links">
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+            <a href="{{ url_for('progress_page') }}" class="active">Progress</a>
+            <a href="{{ url_for('logout') }}" style="color: #e74c3c;">Logout</a>
+        </div>
+    </nav>
+
+    <div class="progress-container">
+        <header class="animate-fade" style="margin-bottom: 40px;">
+            <h1 style="font-size: 2.5rem; color: var(--text-dark);">Your Learning Journey 🚀</h1>
+            <p style="color: var(--text-light);">A detailed log of your quiz attempts and concept mastery transitions.
+            </p>
+        </header>
+
+        {% if attempts %}
+        <div class="attempts-list animate-fade">
+            {% for attempt in attempts | reverse %}
+            <div class="attempt-card">
+                <div style="min-width: 120px;">
+                    <span class="topic-badge">{{ attempt.topic_name }}</span>
+                    <p style="font-size: 0.75rem; color: #999; margin-top: 8px;">{{ attempt.timestamp[:10] }}</p>
+                </div>
+
+                <div class="metric-group">
+                    <div class="metric-item">
+                        <span class="metric-label">Score</span>
+                        <span class="metric-value">{{ attempt.score }}%</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Mastery</span>
+                        <span class="metric-value">{{ (attempt.mastery * 100) | round(1) }}%</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Avg Time</span>
+                        <span class="metric-value">{{ attempt.avg_time }}s</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Pace</span>
+                        <span class="adaptation-tag tag-{{ attempt.adaptation.speed_label | lower }}">
+                            {{ attempt.adaptation.speed_label }}
+                        </span>
+                    </div>
+                </div>
+
+                <div
+                    style="flex: 0 0 250px; font-size: 0.85rem; color: #555; border-left: 1px solid #eee; padding-left: 20px;">
+                    <strong>Recommendation:</strong><br>
+                    {{ attempt.recommendation.action }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state animate-fade">
+            <div style="font-size: 5rem;">🎯</div>
+            <h2>No quiz attempts yet!</h2>
+            <p style="color: var(--text-light); margin-bottom: 30px;">Complete your first video lesson and take a quiz
+                to start tracking your progress.</p>
+            <a href="{{ url_for('dashboard') }}" class="btn btn-primary" style="width: auto; padding: 12px 30px;">Go to
+                Dashboard</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

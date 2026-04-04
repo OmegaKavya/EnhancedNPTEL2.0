@@ -1,0 +1,30 @@
+[
+    {
+        "id": "ds",
+        "title": "Data Structures",
+        "category": "Computer Science",
+        "video_id": "RBSGKlAvoiM",
+        "description": "Learn the basics of Data Structures with linked lists and arrays."
+    },
+    {
+        "id": "os",
+        "title": "Operating Systems",
+        "category": "Computer Science",
+        "video_id": "26QPDBe-NB8",
+        "description": "Introduction to Operating Systems and Process Management."
+    },
+    {
+        "id": "dbms",
+        "title": "DBMS",
+        "category": "Computer Science",
+        "video_id": "HXV3zeQKqGY",
+        "description": "Relational Database Management Systems and SQL basics."
+    },
+    {
+        "id": "cn",
+        "title": "Computer Networks",
+        "category": "Computer Science",
+        "video_id": "3QhU9jd03a0",
+        "description": "Fundamentals of Computer Networks and OSI Model."
+    }
+]

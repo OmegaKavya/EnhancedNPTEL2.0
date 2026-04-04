@@ -1,0 +1,99 @@
+{
+    "1": {
+        "ds": {
+            "last_position": 13984.41638109346,
+            "watch_percentage": 48,
+            "timestamp": "2026-01-30T00:57:32.037134"
+        },
+        "os": {
+            "last_position": 703.7299949332428,
+            "watch_percentage": 86,
+            "timestamp": "2026-01-30T14:30:14.006685"
+        },
+        "dbms": {
+            "last_position": 1669.8681691182555,
+            "watch_percentage": 11,
+            "timestamp": "2026-01-30T11:10:56.373762"
+        },
+        "cn": {
+            "last_position": 363.8387608779297,
+            "watch_percentage": 49,
+            "timestamp": "2026-02-01T11:22:03.090326"
+        }
+    },
+    "2": {
+        "ds": {
+            "last_position": 189.8678802155304,
+            "watch_percentage": 1,
+            "timestamp": "2026-01-30T10:41:53.851661"
+        },
+        "dbms": {
+            "last_position": 352.39313914305114,
+            "watch_percentage": 2,
+            "timestamp": "2026-01-30T10:54:37.343136"
+        },
+        "os": {
+            "last_position": 0,
+            "watch_percentage": 0,
+            "timestamp": "2026-01-30T11:36:47.267733"
+        },
+        "cn": {
+            "last_position": 0,
+            "watch_percentage": 0,
+            "timestamp": "2026-01-30T11:41:43.174730"
+        }
+    },
+    "3": {
+        "ds": {
+            "last_position": 2313.620997,
+            "watch_percentage": 8,
+            "timestamp": "2026-02-01T11:10:03.694111"
+        }
+    },
+    "4": {
+        "ds": {
+            "last_position": 27018.345638,
+            "watch_percentage": 93,
+            "timestamp": "2026-04-03T21:39:24.446392"
+        },
+        "os": {
+            "last_position": 815.041,
+            "watch_percentage": 100,
+            "timestamp": "2026-04-04T16:54:22.965630"
+        },
+        "dbms": {
+            "last_position": 0,
+            "watch_percentage": 0,
+            "timestamp": "2026-04-03T21:36:37.492471"
+        }
+    },
+    "5": {
+        "ds": {
+            "last_position": 0,
+            "watch_percentage": 0,
+            "timestamp": "2026-04-04T19:43:48.727388"
+        }
+    },
+    "16": {
+        "ds": {
+            "last_position": 1673.532655,
+            "watch_percentage": 6,
+            "timestamp": "2026-04-04T21:30:23.860044"
+        },
+        "os": {
+            "last_position": 57.697349,
+            "watch_percentage": 86,
+            "timestamp": "2026-04-04T21:24:06.217408"
+        },
+        "dbms": {
+            "last_position": 0.861508,
+            "watch_percentage": 0,
+            "timestamp": "2026-04-04T21:28:19.108286"
+        },
+        "cn": {
+            "last_position": 3.212533032424927,
+            "watch_percentage": 0,
+            "timestamp": "2026-04-04T21:18:19.319702"
+        }
+    }
+}

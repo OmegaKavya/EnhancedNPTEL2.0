@@ -1,0 +1,4529 @@
+[
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:38:27.835562",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 35
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:38:32.748255",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:38:34.746730",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:38:35.442029",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:38:36.749057",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:38:36.988399",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:40:05.795402",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 35
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:42:12.663215",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:42:13.444125",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T00:42:14.663843",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:42:31.236670",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 35
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:42:38.217138",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 56
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:49:56.717618",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 56
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:52:01.243519",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 56
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:52:08.838418",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 56
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:52:11.843581",
+        "pause_count": 3,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 58
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:54:40.030745",
+        "pause_count": 4,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 58
+    },
+    {
+        "user_id": "1",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T00:57:32.035692",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 48
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:00:21.867007",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:00:23.865751",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:01:26.673842",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 38
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:04:47.579191",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 40
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:04:49.579633",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 40
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:04:51.575977",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 40
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:04:53.579639",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 40
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:05:26.329934",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 44
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:09:44.525832",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 50
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:09:46.524789",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 50
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:09:48.523882",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 50
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:09:50.524290",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 50
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:10:33.905426",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 56
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:10.340430",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:12.339212",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:13.410768",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:14.341593",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:16.339825",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:18.342995",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:20.341576",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:22.343062",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:24.343247",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:26.344227",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:28.343033",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:30.341937",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:32.343175",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:34.342104",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:36.343384",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:38.343320",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:40.343332",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:42.341819",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:44.343995",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:46.343173",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:48.341778",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:50.341695",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:52.339919",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:54.342489",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:56.343496",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:12:58.344210",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:00.342508",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:02.343597",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:04.342436",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:06.323544",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:06.339632",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:08.343547",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:10.340631",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:12.341115",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:14.342496",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:16.346499",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:13:18.343197",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:08.052533",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:08.344721",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:10.342624",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:12.343665",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:14.866427",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:16.866212",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:18.865145",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:20.868795",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:22.868127",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:24.867070",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:26.867374",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:28.867282",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:30.866944",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:32.866714",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:34.867892",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:36.869262",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:38.869256",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:39.121717",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:40.869123",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:42.868685",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:44.868529",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:46.868672",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:48.865134",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:50.867270",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:18:52.866957",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:28:12.741900",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:28:14.741950",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:28:16.743826",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:28:18.738059",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T01:28:23.318238",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 61
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:27.781820",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:29.783339",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:31.782115",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:33.783309",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:35.783677",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:37.781944",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:39.782044",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:41.781394",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:43.781764",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:45.780101",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:47.782732",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:49.782994",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:51.781280",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:53.780483",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:55.782070",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:57.785265",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:33:59.784213",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:01.783345",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:03.782415",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:05.782761",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:07.783036",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:09.783102",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:11.783390",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:13.780731",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:15.784500",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:17.783446",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:19.782911",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:21.783853",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:23.781519",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:25.784108",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:27.783730",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:29.785550",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:31.781837",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:33.781254",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:35.785185",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:37.784144",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:39.782468",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:41.784189",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:43.782471",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:45.806548",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:47.784875",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:49.783891",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:51.783229",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:53.782172",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:54.398403",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:55.785616",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:57.781923",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:34:59.781146",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:01.782573",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:03.781938",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:05.782642",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:07.781499",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:09.782550",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T01:35:11.784075",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:10.230785",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:12.231030",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:14.228809",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:16.230837",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:18.232436",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:20.230503",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:22.234934",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:24.231225",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:26.236894",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:28.230360",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:30.231599",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:32.232032",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:34.229564",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:36.232908",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:38.231052",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:40.229650",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:42.233363",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:44.230032",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:46.232401",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:48.233152",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:50.231289",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:52.230844",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T01:38:56.560930",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 2
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:11.828060",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:13.824973",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:15.824132",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:17.823664",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:19.825147",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:21.826089",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:23.827025",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:25.826848",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:27.823402",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:29.827098",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:31.826765",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:33.826376",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:35.826488",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:37.826148",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:39.825000",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:41.827315",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:43.826956",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:45.825198",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:47.827388",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:49.826711",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:51.825881",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:53.826169",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:55.825068",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:57.825352",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:40:59.826129",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:41:01.828338",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:41:03.826952",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:41:05.826028",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:41:07.827036",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "ds",
+        "timestamp": "2026-01-30T10:41:53.845942",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 1
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:46:29.850476",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:46:31.848989",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:46:33.849605",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:47:49.851060",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:47:51.851287",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:47:53.850918",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:47:55.852425",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:15.850876",
+        "pause_count": 0,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:17.850006",
+        "pause_count": 0,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:19.848564",
+        "pause_count": 0,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:20.485372",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:21.849324",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:23.848644",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 20
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T10:49:42.678576",
+        "pause_count": 2,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 23
+    },
+    {
+        "user_id": "2",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T10:54:37.337675",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 2
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:06:19.615588",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 61
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:07:28.231913",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:07:30.230398",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:07:32.229024",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:07:34.229316",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:07:39.345946",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 71
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T11:10:21.545939",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T11:10:23.544707",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T11:10:25.545219",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T11:10:27.546528",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 10
+    },
+    {
+        "user_id": "1",
+        "video_id": "dbms",
+        "timestamp": "2026-01-30T11:10:56.368685",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 11
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:24:55.023945",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:32:17.628945",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:36:45.264908",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "os",
+        "timestamp": "2026-01-30T11:36:47.262132",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "2",
+        "video_id": "cn",
+        "timestamp": "2026-01-30T11:41:43.169141",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T14:29:19.682751",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 80
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T14:29:21.681353",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 80
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T14:29:23.678854",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 80
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T14:29:25.681592",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 80
+    },
+    {
+        "user_id": "1",
+        "video_id": "os",
+        "timestamp": "2026-01-30T14:30:14.001367",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 86
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:44.660440",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:46.659873",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:48.661240",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:50.661533",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:52.661423",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:54.659796",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:56.659235",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:08:58.660724",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:09:00.660105",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:09:02.660319",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:09:03.522946",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:09:05.404171",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 8
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:09:07.655976",
+        "pause_count": 3,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 8
+    },
+    {
+        "user_id": "3",
+        "video_id": "ds",
+        "timestamp": "2026-02-01T11:10:03.684972",
+        "pause_count": 4,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 8
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:11.016414",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:13.016169",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:25.615460",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 3
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:30.683150",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 3
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:40.123908",
+        "pause_count": 3,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 31
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:58.783154",
+        "pause_count": 4,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 44
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:21:59.514557",
+        "pause_count": 5,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 49
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:22:00.310124",
+        "pause_count": 6,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 49
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:22:01.190242",
+        "pause_count": 7,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 49
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:22:02.182412",
+        "pause_count": 8,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 49
+    },
+    {
+        "user_id": "1",
+        "video_id": "cn",
+        "timestamp": "2026-02-01T11:22:03.084103",
+        "pause_count": 9,
+        "rewatch_count": 6,
+        "skip_ratio": 0,
+        "watch_percentage": 49
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-02T16:52:31.906391",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-02T16:52:33.901753",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-02T16:52:49.759601",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-02T17:18:16.874715",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-02T17:18:26.975567",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-02T17:18:28.976502",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-03T21:21:03.146433",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:11.224178",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:13.221586",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:16.427074",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 1
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:27.219171",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:28.012186",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:29.216975",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:31.223867",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:26:33.221741",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:14.450130",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:14.694988",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:16.691261",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:18.703906",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:20.696167",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:22.694748",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:24.691222",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:26.699607",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:28.695310",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:30.701766",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:32.698972",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:34.696966",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:36.693862",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:38.705966",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:40.697754",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:42.703262",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:44.693629",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:46.700232",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:48.698613",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-03T21:29:50.692699",
+        "pause_count": 1,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 90
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:29:57.225195",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:29:59.228509",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:30:01.236422",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:30:03.235595",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:30:05.226907",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:30:07.229737",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:30:09.236732",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "dbms",
+        "timestamp": "2026-04-03T21:36:37.473353",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-03T21:38:07.847730",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "4",
+        "video_id": "ds",
+        "timestamp": "2026-04-03T21:39:24.426048",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:30.354783",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:32.353923",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:34.360352",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 30
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:36.356910",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:38.353341",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:40.354647",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:40.756811",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:42.352214",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:44.364810",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:49.158327",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 63
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:52.363860",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:54.365100",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 70
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:26:58.352286",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:00.357067",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:02.357879",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:04.359701",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:06.359108",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:08.361669",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:27:10.359476",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:31:10.287089",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:31:12.287097",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:31:14.290746",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:31:16.288510",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:31:20.787025",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:49:38.338776",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:49:40.341326",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:49:42.342077",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:49:44.344136",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:51:45.182732",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:51:47.184689",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:51:49.186350",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:53:16.300131",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:53:18.304886",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:53:20.304489",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:54:16.890259",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:54:18.892950",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:54:20.891722",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "4",
+        "video_id": "os",
+        "timestamp": "2026-04-04T16:54:22.893567",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:44:53.729472",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:44:55.717183",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:44:57.720533",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:44:59.727615",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:45:01.722016",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T17:45:03.729897",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:34.165194",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:36.168531",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:38.165076",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:40.194648",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:42.174798",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:44.172571",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:46.267783",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:48.187967",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:50.205345",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:52.196049",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:54.173885",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:56.186853",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:42:58.248089",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:00.373043",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:02.707754",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:04.733720",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:06.755008",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:08.436659",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:10.197451",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:12.215064",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:14.220008",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:16.245980",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:18.172636",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:20.189386",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:22.177139",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:24.690107",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:26.391881",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:28.205717",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:30.241249",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:32.171343",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:34.176813",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:36.182832",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:38.202498",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:40.283597",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:42.722645",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:44.748046",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:46.742988",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "5",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T19:43:48.721286",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T20:27:01.164269",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T20:49:48.597835",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T20:55:36.176280",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:03:39.265856",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:03:41.251252",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:26.750810",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:28.749541",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:30.776214",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:30.925009",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:32.887097",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:34.756696",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:36.743838",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:38.276078",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:38.741303",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:40.739825",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:42.737549",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:44.739449",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:10:54.398269",
+        "pause_count": 3,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 1
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:11:01.658524",
+        "pause_count": 4,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 3
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:11:33.669320",
+        "pause_count": 5,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 34
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:11:36.738587",
+        "pause_count": 5,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 50
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:11:38.739631",
+        "pause_count": 5,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 60
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:11:59.812101",
+        "pause_count": 6,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 93
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:15.787198",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 99
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:16.350660",
+        "pause_count": 8,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 99
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:17.486281",
+        "pause_count": 9,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 99
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:18.531679",
+        "pause_count": 10,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 99
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:21.228554",
+        "pause_count": 11,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 99
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:24.736779",
+        "pause_count": 11,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:26.735976",
+        "pause_count": 11,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:27.511564",
+        "pause_count": 12,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:28.535607",
+        "pause_count": 13,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:28.735046",
+        "pause_count": 13,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:30.071579",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:30.736030",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:32.736238",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:34.735969",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:36.736149",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:38.734987",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:40.735313",
+        "pause_count": 14,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:41.582684",
+        "pause_count": 15,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:12:42.738456",
+        "pause_count": 15,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:41.220608",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:43.224231",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:43.876835",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:45.226519",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:47.246934",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:49.228897",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:17:51.231037",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:18:00.883936",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:18:01.972517",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "cn",
+        "timestamp": "2026-04-04T21:18:17.298784",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "cn",
+        "timestamp": "2026-04-04T21:18:19.309444",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:22:55.247347",
+        "pause_count": 0,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:22:56.143590",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:22:57.250146",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:22:59.246237",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:01.256174",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:03.243284",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:05.249033",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:07.238808",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:09.241023",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:11.249956",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:13.248051",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:15.246170",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:17.245101",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:19.240594",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:21.244658",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:23.239604",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:25.239120",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:23:31.512578",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 52
+    },
+    {
+        "user_id": "16",
+        "video_id": "os",
+        "timestamp": "2026-04-04T21:24:06.209898",
+        "pause_count": 3,
+        "rewatch_count": 1,
+        "skip_ratio": 0,
+        "watch_percentage": 86
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:28:12.769597",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:28:13.094594",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:28:15.107004",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:28:17.101852",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "dbms",
+        "timestamp": "2026-04-04T21:28:19.095538",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:00.084162",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 0
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:00.520031",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:02.514808",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:04.504423",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:06.502198",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:08.503629",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:10.508638",
+        "pause_count": 1,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:11.932609",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:12.501395",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:14.508008",
+        "pause_count": 2,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:16.314237",
+        "pause_count": 3,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:16.501155",
+        "pause_count": 3,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:16.830533",
+        "pause_count": 4,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:17.499521",
+        "pause_count": 5,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:18.515548",
+        "pause_count": 5,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:18.587234",
+        "pause_count": 6,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:19.645040",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:20.502362",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:22.501148",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:24.502860",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:26.519768",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:28.510956",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:30.514757",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:32.528318",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:34.505206",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:36.505405",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:38.538788",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:40.512918",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:42.500313",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:44.507837",
+        "pause_count": 7,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 100
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:29:46.936541",
+        "pause_count": 8,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 1
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:30:14.533459",
+        "pause_count": 9,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 6
+    },
+    {
+        "user_id": "16",
+        "video_id": "ds",
+        "timestamp": "2026-04-04T21:30:23.850865",
+        "pause_count": 10,
+        "rewatch_count": 0,
+        "skip_ratio": 0,
+        "watch_percentage": 6
+    }
+]

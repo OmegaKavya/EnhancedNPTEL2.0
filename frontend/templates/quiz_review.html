@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Review - Edubox</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <style>
+      .q-card {
+        border: 1px solid #eee;
+        border-radius: 10px;
+        padding: 14px;
+        margin-bottom: 12px;
+      }
+
+      .q-card.correct {
+        border-left: 4px solid #1e4c8f;
+      }
+
+      .q-card.incorrect {
+        border-left: 4px solid #f39c12;
+      }
+
+      .attempt-link {
+        display: block;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: inherit;
+        background: #fff;
+      }
+
+      .attempt-link:hover {
+        border-color: rgba(30, 76, 143, 0.25);
+        background: #f7f9ff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a
+        href="{{ url_for('index') }}"
+        class="logo"
+        style="
+          text-decoration: none;
+          color: inherit;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        "
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+        </svg>
+        Edubox
+      </a>
+      <div class="nav-links">
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('progress_page') }}">Progress</a>
+        <a href="{{ url_for('logout') }}" style="color: #e74c3c">Logout</a>
+      </div>
+    </nav>
+
+    <div
+      style="
+        max-width: 1100px;
+        margin: 35px auto;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 25px;
+      "
+    >
+      <aside
+        style="
+          background: white;
+          border-radius: 12px;
+          padding: 20px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+          max-height: 80vh;
+          overflow-y: auto;
+        "
+      >
+        <h3 style="margin-bottom: 15px">Quiz Attempts</h3>
+        {% if review_rows %} {% for row in review_rows %}
+        <a
+          href="{{ url_for('quiz_review_page', attempt_id=row.attempt_id) }}"
+          class="attempt-link"
+        >
+          <strong>{{ row.topic_name }}</strong>
+          <div style="font-size: 0.85rem; color: #777; margin-top: 6px">
+            Score: {{ row.score }}% • {{ row.speed_label }}
+          </div>
+          <div style="font-size: 0.75rem; color: #999; margin-top: 4px">
+            {{ row.timestamp[:19].replace('T', ' ') if row.timestamp else '' }}
+          </div>
+        </a>
+        {% endfor %} {% else %}
+        <p style="color: #777">No attempts yet.</p>
+        {% endif %}
+      </aside>
+
+      <main
+        style="
+          background: white;
+          border-radius: 12px;
+          padding: 25px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        "
+      >
+        {% if selected_attempt %}
+        <h2 style="margin-bottom: 8px">
+          {{ selected_attempt.topic_name if selected_attempt.topic_name else
+          selected_attempt.topic_id }} - Review
+        </h2>
+        <p style="color: #777; margin-bottom: 18px">
+          Score: <strong>{{ selected_attempt.score }}%</strong> • Mastery:
+          <strong>{{ (selected_attempt.mastery * 100)|round(1) }}%</strong> •
+          Avg time: <strong>{{ selected_attempt.avg_time }}s</strong>
+        </p>
+
+        <section
+          style="
+            margin-bottom: 20px;
+            padding: 16px;
+            border-radius: 10px;
+            background: #f9f9f9;
+            border-left: 4px solid #f5b041;
+          "
+        >
+          <h3 style="margin-bottom: 8px; color: #8a5b00">AI Insights</h3>
+          <p style="margin-bottom: 10px; color: #444">
+            {{ selected_attempt.ai_insights.summary if
+            selected_attempt.ai_insights else 'No summary available.' }}
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18px">
+            <div>
+              <strong>Focus Concepts</strong>
+              <ul style="margin-top: 6px">
+                {% for item in (selected_attempt.ai_insights.focus_concepts if
+                selected_attempt.ai_insights else []) %}
+                <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div>
+              <strong>Cheat Sheet</strong>
+              <ul style="margin-top: 6px">
+                {% for item in (selected_attempt.ai_insights.cheat_sheet if
+                selected_attempt.ai_insights else []) %}
+                <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top: 10px">
+            <strong>Resources</strong>
+            <ul style="margin-top: 6px">
+              {% for res in (selected_attempt.ai_insights.resources if
+              selected_attempt.ai_insights else []) %}
+              <li>
+                <a
+                  href="{{ res.url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >{{ res.title }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3 style="margin-bottom: 10px">Question Review</h3>
+          {% for q in selected_attempt.question_results %}
+          <div class="q-card {{ 'correct' if q.is_correct else 'incorrect' }}">
+            <div style="font-weight: 600; margin-bottom: 6px">
+              Q{{ loop.index }}. {{ q.text }}
+            </div>
+            <div style="font-size: 0.92rem; margin-bottom: 4px">
+              Your answer:
+              <strong
+                >{{ q.selected_answer if q.selected_answer else 'No answer'
+                }}</strong
+              >
+            </div>
+            <div style="font-size: 0.92rem; margin-bottom: 4px">
+              Correct answer: <strong>{{ q.correct_answer }}</strong>
+            </div>
+            <div style="font-size: 0.92rem; margin-bottom: 4px">
+              Hint used: <strong>{{ 'Yes' if q.used_hint else 'No' }}</strong> •
+              Time: <strong>{{ q.time_taken|round(1) }}s</strong>
+            </div>
+            <div style="font-size: 0.9rem; color: #666">
+              Feedback: {{ q.feedback }}
+            </div>
+          </div>
+          {% endfor %}
+        </section>
+        {% else %}
+        <h2>Select an attempt</h2>
+        <p style="color: #777">
+          Choose any attempt from the left panel to open detailed quiz review,
+          AI insights, cheat sheet and resources.
+        </p>
+        {% endif %}
+      </main>
+    </div>
+  </body>
+</html>

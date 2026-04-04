@@ -1,0 +1,2786 @@
+[
+    {
+        "user_id": "1",
+        "topic_id": "ds",
+        "timestamp": "2026-01-30T00:41:55.290880",
+        "score": 66.67,
+        "avg_time": 2.23,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "ds",
+        "timestamp": "2026-01-30T00:42:52.652710",
+        "score": 66.67,
+        "avg_time": 2.92,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "ds",
+        "timestamp": "2026-01-30T00:55:07.571453",
+        "score": 33.33,
+        "avg_time": 8.64,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22887340483833085,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T01:01:35.354561",
+        "score": 33.33,
+        "avg_time": 2.37,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T01:06:58.446913",
+        "score": 0.0,
+        "avg_time": 30.0,
+        "adaptation": {
+            "new_difficulty": "easy",
+            "speed_label": "Slow"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T01:11:11.122366",
+        "score": 0.0,
+        "avg_time": 5.54,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22887340483833085,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:18:12.893167",
+        "score": 0.0,
+        "avg_time": 16.01,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:18:24.704729",
+        "score": 0.0,
+        "avg_time": 20.0,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:18:30.994803",
+        "score": 0.0,
+        "avg_time": 24.38,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.22887340483833085,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:19:37.591822",
+        "score": 66.67,
+        "avg_time": 9.74,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22862278631383154,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:19:41.758406",
+        "score": 100.0,
+        "avg_time": 14.81,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.6571746014110327,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Proceed to next topic",
+            "message": "Great job! You're showing steady progress.",
+            "next_difficulty": "medium"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:22:10.899864",
+        "score": 0.0,
+        "avg_time": 2.43,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.35465348864572305,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T01:29:02.549114",
+        "score": 66.67,
+        "avg_time": 5.75,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22862278631383154,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "2",
+        "topic_id": "ds",
+        "timestamp": "2026-01-30T01:35:35.089242",
+        "score": 33.33,
+        "avg_time": 4.19,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "2",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T01:39:42.693904",
+        "score": 100.0,
+        "avg_time": 7.9,
+        "adaptation": {
+            "new_difficulty": "hard",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.7268292682926829,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Proceed to next topic",
+            "message": "Great job! You're showing steady progress.",
+            "next_difficulty": "medium"
+        }
+    },
+    {
+        "user_id": "2",
+        "topic_id": "ds",
+        "timestamp": "2026-01-30T10:42:37.171973",
+        "score": 0.0,
+        "avg_time": 4.89,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "2",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T10:50:34.833386",
+        "score": 0.0,
+        "avg_time": 8.61,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "2",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T10:55:20.153584",
+        "score": 33.33,
+        "avg_time": 6.05,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.3996429061942041,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T11:08:21.547817",
+        "score": 33.33,
+        "avg_time": 3.91,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T11:08:29.451927",
+        "score": 66.67,
+        "avg_time": 5.63,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "dbms",
+        "timestamp": "2026-01-30T11:11:43.095930",
+        "score": 100.0,
+        "avg_time": 7.1,
+        "adaptation": {
+            "new_difficulty": "hard",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.7696848022485445,
+        "behavior_cluster": "General Learner",
+        "recommendation": {
+            "action": "Proceed to next topic",
+            "message": "Great job! You're showing steady progress.",
+            "next_difficulty": "medium"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "os",
+        "timestamp": "2026-01-30T14:31:11.571257",
+        "score": 66.67,
+        "avg_time": 9.1,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "3",
+        "topic_id": "ds",
+        "timestamp": "2026-02-01T11:11:06.464273",
+        "score": 66.67,
+        "avg_time": 7.71,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "1",
+        "topic_id": "cn",
+        "timestamp": "2026-02-01T11:22:58.383841",
+        "score": 33.33,
+        "avg_time": 6.91,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-02T17:23:03.692020",
+        "score": 0.0,
+        "avg_time": 7.86,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-03T21:26:59.042575",
+        "score": 33.33,
+        "avg_time": 3.43,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-03T21:30:38.372469",
+        "score": 0.0,
+        "avg_time": 2.81,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22887340483833085,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-03T21:35:36.872788",
+        "score": 33.33,
+        "avg_time": 21.1,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.22862278631383154,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "ds",
+        "timestamp": "2026-04-03T21:37:46.808795",
+        "score": 33.33,
+        "avg_time": 2.77,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:11:08.203970",
+        "score": 0.0,
+        "avg_time": 2.25,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:21:01.413217",
+        "score": 25.0,
+        "avg_time": 4.9,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:21:40.487951",
+        "score": 25.0,
+        "avg_time": 3.41,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:26:09.664719",
+        "score": 25.0,
+        "avg_time": 2.17,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:30:00.416765",
+        "score": 0.0,
+        "avg_time": 38.4,
+        "adaptation": {
+            "new_difficulty": "easy",
+            "speed_label": "Slow"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:51:24.133438",
+        "score": 50.0,
+        "avg_time": 20.13,
+        "adaptation": {
+            "new_difficulty": "easy",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.22857589299665615,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:52:27.729257",
+        "score": 75.0,
+        "avg_time": 4.81,
+        "adaptation": {
+            "new_difficulty": "easy",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.6571746014110327,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Proceed to next topic",
+            "message": "Great job! You're showing steady progress. We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "medium"
+        }
+    },
+    {
+        "user_id": "4",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T16:54:07.514253",
+        "score": 100.0,
+        "avg_time": 5.04,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.916902005939034,
+        "behavior_cluster": "Detail-Oriented",
+        "recommendation": {
+            "action": "Concept Mastered",
+            "message": "Impressive mastery! Ready for more challenging content? We noticed you take your time\u2014that's great for deep understanding!",
+            "next_difficulty": "hard"
+        }
+    },
+    {
+        "user_id": "5",
+        "topic_id": "ds",
+        "timestamp": "2026-04-04T17:45:12.135101",
+        "score": 33.33,
+        "avg_time": 2.67,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "7",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T19:08:07.545633",
+        "score": 66.67,
+        "avg_time": 6.5,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "9",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T19:16:01.536395",
+        "score": 66.67,
+        "avg_time": 7.0,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        }
+    },
+    {
+        "user_id": "10",
+        "topic_id": "os",
+        "timestamp": "2026-04-04T19:18:42.956067",
+        "score": 100.0,
+        "avg_time": 7.0,
+        "adaptation": {
+            "new_difficulty": "hard",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.7268292682926829,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Proceed to next topic",
+            "message": "Great job! You're showing steady progress.",
+            "next_difficulty": "medium"
+        }
+    },
+    {
+        "attempt_id": "11-0cb0ad6e3d",
+        "user_id": "11",
+        "topic_id": "os",
+        "topic_name": "Operating Systems",
+        "timestamp": "2026-04-04T19:32:21.932553",
+        "score": 55.56,
+        "avg_time": 8.0,
+        "total_time": 72.0,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 9,
+            "timer_seconds": 270,
+            "hint_unlock_seconds": 135
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary function of an operating system?",
+                "options": [
+                    "To manage hardware resources",
+                    "To provide a platform for running applications",
+                    "Both A and B",
+                    "Neither A nor B"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "Both A and B",
+                "is_correct": true,
+                "feedback": "The student's answer accurately reflects the dual primary functions of an operating system, which include managing hardware resources (A) and providing a platform for running applications (B).",
+                "hint": "Think about what an OS does, not just its name",
+                "used_hint": true,
+                "time_taken": 8.0
+            },
+            {
+                "id": "2",
+                "text": "Which of the following types of memory is used by the operating system?",
+                "options": [
+                    "Random Access Memory (RAM)",
+                    "Read-Only Memory (ROM)",
+                    "Both A and B",
+                    "Neither A nor B"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "Random Access Memory (RAM)",
+                "is_correct": false,
+                "feedback": "RAM (Random Access Memory) is one type of memory used by the operating system, but not 'Both A and B', as there are no other types mentioned in the question.",
+                "hint": "Think about what an OS needs to function",
+                "used_hint": false,
+                "time_taken": 8.0
+            },
+            {
+                "id": "3",
+                "text": "What is a process in the context of operating systems?",
+                "options": [
+                    "A program that runs on a computer",
+                    "A group of programs that run on a computer",
+                    "Both A and B",
+                    "Neither A nor B"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "Both A and B",
+                "is_correct": true,
+                "feedback": "The student's answer 'Both A and B' is semantically identical to the correct answer, as it indicates that both A and B are processes in the context of operating systems.",
+                "hint": "Think about how processes work",
+                "used_hint": false,
+                "time_taken": 8.0
+            },
+            {
+                "id": "4",
+                "text": "Which of the following is a characteristic of an operating system?",
+                "options": [
+                    "It can only run one program at a time",
+                    "It can run multiple programs simultaneously",
+                    "Only A",
+                    "Both A and B"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "It can only run one program at a time",
+                "is_correct": false,
+                "feedback": "The answer is incorrect because an operating system can run multiple programs concurrently, not just one.",
+                "hint": "Think about what makes an OS different from other software",
+                "used_hint": true,
+                "time_taken": 8.0
+            },
+            {
+                "id": "5",
+                "text": "What is the purpose of a boot process in an operating system?",
+                "options": [
+                    "To install new hardware",
+                    "To load the operating system into memory",
+                    "To launch the desktop environment",
+                    "Only A"
+                ],
+                "correct_answer": "Only A",
+                "selected_answer": "Only A",
+                "is_correct": true,
+                "feedback": "The student's answer, 'Only A', is semantically identical to the correct answer, indicating that the student has identified one of the options as correct, but did not fully address the question. Further clarification or elaboration would be necessary for a comprehensive understanding.",
+                "hint": "Think about what happens when you turn on your computer",
+                "used_hint": false,
+                "time_taken": 8.0
+            },
+            {
+                "id": "6",
+                "text": "Which of the following is a type of input device?",
+                "options": [
+                    "Keyboard",
+                    "Mouse",
+                    "Printer",
+                    "Monitor"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "Keyboard",
+                "is_correct": false,
+                "feedback": "Keyboard is not considered both A and B, but it can be one of them. The question lacks specific options (A and B) to determine the correct answer.",
+                "hint": "Think about how you interact with your computer",
+                "used_hint": false,
+                "time_taken": 8.0
+            },
+            {
+                "id": "7",
+                "text": "What is the purpose of a file system?",
+                "options": [
+                    "To manage programs on a computer",
+                    "To store data on a computer",
+                    "To provide network connectivity",
+                    "Only B"
+                ],
+                "correct_answer": "Only B",
+                "selected_answer": "Only B",
+                "is_correct": true,
+                "feedback": "The student's answer, 'Only B', is semantically identical to the correct answer, which implies that the file system provides both read and write access (i.e., functionality represented by letter B) as part of its overall purpose.",
+                "hint": "Think about how files are organized on your computer",
+                "used_hint": true,
+                "time_taken": 8.0
+            },
+            {
+                "id": "8",
+                "text": "Which of the following is a characteristic of a multi-user operating system?",
+                "options": [
+                    "It can only run one program at a time",
+                    "Multiple users can access the system simultaneously",
+                    "Both A and B",
+                    "Neither A nor B"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "It can only run one program at a time",
+                "is_correct": false,
+                "feedback": "The student's answer states it can only run one program at a time, which is incorrect as multi-user operating systems are designed to run multiple programs simultaneously.",
+                "hint": "Think about what makes a multi-user OS different from a single-user OS",
+                "used_hint": false,
+                "time_taken": 8.0
+            },
+            {
+                "id": "9",
+                "text": "What is the purpose of an interrupt in an operating system?",
+                "options": [
+                    "To handle errors",
+                    "To provide additional functionality",
+                    "To take control of the CPU",
+                    "Only A"
+                ],
+                "correct_answer": "Both A and B",
+                "selected_answer": "Both A and B",
+                "is_correct": true,
+                "feedback": "The Student's Answer correctly identifies that both 'A' and 'B' are correct explanations of the purpose of an interrupt in an operating system.",
+                "hint": "Think about how an OS handles high-priority tasks",
+                "used_hint": false,
+                "time_taken": 8.0
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "RAM (Random Access Memory)",
+                "Running multiple programs",
+                "Concurrent execution"
+            ],
+            "cheat_sheet": [
+                "RAM: volatile memory for temporary data storage",
+                "Multi-user OS: run multiple programs simultaneously",
+                "Single-user OS: run one program at a time"
+            ],
+            "resources": [
+                {
+                    "title": "What is RAM?",
+                    "url": "https://en.wikipedia.org/wiki/Random_access_memory"
+                },
+                {
+                    "title": "How do Operating Systems Run Programs",
+                    "url": "https://www.geeksforgeeks.org/how-do-operating-systems-run-programs/"
+                },
+                {
+                    "title": "Concurrent Execution in OS",
+                    "url": "https://study.com/learncourse/concurrent-execution-in-operations-sys.html"
+                }
+            ],
+            "summary": "An operating system can run multiple programs concurrently, but single-user systems can only run one program at a time. RAM is used for temporary data storage."
+        }
+    },
+    {
+        "attempt_id": "5-9dbb55a1f5",
+        "user_id": "5",
+        "topic_id": "ds",
+        "topic_name": "Data Structures",
+        "timestamp": "2026-04-04T19:45:39.221758",
+        "score": 28.57,
+        "avg_time": 8.0,
+        "total_time": 56.0,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 7,
+            "timer_seconds": 210,
+            "hint_unlock_seconds": 105
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary use of a Stack data structure?",
+                "options": [
+                    "To store and retrieve data in a random order",
+                    "To insert data at any position",
+                    "To remove data from the top",
+                    "To sort data"
+                ],
+                "correct_answer": "To remove data from the top",
+                "selected_answer": "To remove data from the top",
+                "is_correct": false,
+                "feedback": "The student's answer 'To remove data from the top' is semantically identical to the correct answer, but it doesn't fully capture the primary purpose of a Stack data structure, which is to last-in, first-out (LIFO) removal.",
+                "hint": "Think about the last item added to a collection",
+                "used_hint": false,
+                "time_taken": 20.76
+            },
+            {
+                "id": "2",
+                "text": "Which data structure is used when you need to store and retrieve elements in a specific order?",
+                "options": [
+                    "Queue",
+                    "Tree",
+                    "Graph",
+                    "Array"
+                ],
+                "correct_answer": "Queue",
+                "selected_answer": "Array",
+                "is_correct": false,
+                "feedback": "An array is used to store elements in a specific order, but it does not necessarily retrieve elements in the same order.",
+                "hint": "Think about ordering items for delivery",
+                "used_hint": false,
+                "time_taken": 18.661
+            },
+            {
+                "id": "3",
+                "text": "What is the main difference between an Array and a Linked List?",
+                "options": [
+                    "Arrays store data in contiguous memory locations",
+                    "Linked Lists are used to implement stacks and queues",
+                    "Arrays can be sorted more efficiently than Linked Lists",
+                    "Linked Lists are more efficient for large datasets"
+                ],
+                "correct_answer": "Arrays store data in contiguous memory locations",
+                "selected_answer": "Arrays store data in contiguous memory locations",
+                "is_correct": false,
+                "feedback": "The Student's Answer is semantically identical to the Correct Answer, but it only stated the correct fact without providing additional context or distinction between Arrays and Linked Lists.",
+                "hint": "Think about how data is stored",
+                "used_hint": false,
+                "time_taken": 2.748
+            },
+            {
+                "id": "4",
+                "text": "Which data structure is used when you need to efficiently search for an element in a collection?",
+                "options": [
+                    "Tree",
+                    "Graph",
+                    "Hash Table",
+                    "Array"
+                ],
+                "correct_answer": "Hash Table",
+                "selected_answer": "Hash Table",
+                "is_correct": true,
+                "feedback": "Hash Table is indeed used when you need to efficiently search for an element in a collection, as it allows for constant-time lookups on average.",
+                "hint": "Think about fast lookups",
+                "used_hint": false,
+                "time_taken": 3.332
+            },
+            {
+                "id": "5",
+                "text": "What is the purpose of the 'head' node in a Linked List?",
+                "options": [
+                    "To store data",
+                    "To keep track of the last element added",
+                    "To navigate through the list",
+                    "To remove elements from the front"
+                ],
+                "correct_answer": "To keep track of the last element added",
+                "selected_answer": "To keep track of the last element added",
+                "is_correct": false,
+                "feedback": "The student's answer and the correct answer are semantically identical, but they don't fully capture the purpose of the 'head' node in a Linked List.",
+                "hint": "Think about traversing a collection",
+                "used_hint": false,
+                "time_taken": 2.483
+            },
+            {
+                "id": "6",
+                "text": "Which data structure is used when you need to store and manage large amounts of data efficiently?",
+                "options": [
+                    "Heap",
+                    "Bloom Filter",
+                    "Trie",
+                    "Array"
+                ],
+                "correct_answer": "Heap",
+                "selected_answer": "Bloom Filter",
+                "is_correct": false,
+                "feedback": "A Bloom Filter is not used to store large amounts of data efficiently; it's designed for fast membership testing and can be prone to false positives.",
+                "hint": "Think about efficient storage",
+                "used_hint": false,
+                "time_taken": 4.196
+            },
+            {
+                "id": "7",
+                "text": "What is the primary use of a Trie data structure?",
+                "options": [
+                    "To store and retrieve data in a random order",
+                    "To insert data at any position",
+                    "To remove data from the top",
+                    "To prefix-match strings"
+                ],
+                "correct_answer": "To prefix-match strings",
+                "selected_answer": "To prefix-match strings",
+                "is_correct": true,
+                "feedback": "The student's answer is semantically identical to the correct answer, but doesn't provide any additional context or depth. However, they are stating the primary use of a Trie data structure correctly.",
+                "hint": "Think about autocomplete functionality",
+                "used_hint": false,
+                "time_taken": 3.819
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Stack",
+                "Arrays",
+                "Linked Lists",
+                "Bloom Filter"
+            ],
+            "cheat_sheet": [
+                "Last-In, First-Out (LIFO) removal",
+                "Order of elements matters when storing",
+                "Distinct from Arrays in structure and purpose",
+                "Fast membership testing, prone to false positives"
+            ],
+            "resources": [
+                {
+                    "title": "GeeksforGeeks - Stack",
+                    "url": "https://www.geeksforgeeks.org/stack-set-2-introduction/"
+                },
+                {
+                    "title": "W3Schools - Arrays",
+                    "url": "https://www.w3schools.com/python/python_lists.asp"
+                },
+                {
+                    "title": "Tutorials Point - Linked Lists",
+                    "url": "https://www.tutorialspoint.com/data_structures algorithms linked_list.htm"
+                }
+            ],
+            "summary": "Data structures like Stack, Array, and Linked List are fundamental in computer science. A Stack follows the LIFO principle for removal, while Arrays store elements in a specific order and Linked Lists offer dynamic memory allocation."
+        }
+    },
+    {
+        "attempt_id": "15-e132fbfbb6",
+        "user_id": "15",
+        "topic_id": "os",
+        "topic_name": "Operating Systems",
+        "timestamp": "2026-04-04T20:21:42.767583",
+        "score": 54.55,
+        "avg_time": 12.0,
+        "total_time": 132,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 11,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary function of an operating system?",
+                "options": [
+                    "To manage hardware resources",
+                    "To provide a platform for applications",
+                    "To store and retrieve data",
+                    "To connect users to networks"
+                ],
+                "correct_answer": "To provide a platform for applications",
+                "selected_answer": "To provide a platform for applications",
+                "is_correct": true,
+                "feedback": "The student's answer is semantically identical to the correct answer, but it does not fully convey the nuances of what an operating system provides. It simply states what an OS gives applications without elaborating on the platform aspect.",
+                "hint": "Think about what allows software to run on a computer",
+                "used_hint": true,
+                "time_taken": 12
+            },
+            {
+                "id": "2",
+                "text": "Which type of operating system is known for its simplicity and speed?",
+                "options": [
+                    "Single-user",
+                    "Multi-user",
+                    "Real-time",
+                    "Embedded"
+                ],
+                "correct_answer": "Real-time",
+                "selected_answer": "Single-user",
+                "is_correct": false,
+                "feedback": "The student's answer 'Single-user' is not semantically identical to the correct answer 'Real-time'. A single-user operating system can be either real-time or non-real-time, but it does not guarantee speed.",
+                "hint": "Consider the requirements of applications that need to respond quickly",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "3",
+                "text": "What is a key feature of an operating system's security model?",
+                "options": [
+                    "Access control",
+                    "Data encryption",
+                    "Firewall configuration",
+                    "System monitoring"
+                ],
+                "correct_answer": "Access control",
+                "selected_answer": "Access control",
+                "is_correct": true,
+                "feedback": "Access control is indeed a key feature of an operating system's security model, as it governs who can access resources and data within the system.",
+                "hint": "Think about how the OS protects user data and prevents unauthorized access",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "4",
+                "text": "Which of the following is a characteristic of an open-source operating system?",
+                "options": [
+                    "Free to use",
+                    "Supported by a single vendor",
+                    "Open for modification",
+                    "Requires specialized hardware"
+                ],
+                "correct_answer": "Open for modification",
+                "selected_answer": "Free to use",
+                "is_correct": false,
+                "feedback": "While 'free to use' is a common misconception about open-source operating systems, the correct characteristic is that they are open for modification, allowing users and developers to study, customize, and improve the code.",
+                "hint": "Consider why developers might contribute to or modify software",
+                "used_hint": true,
+                "time_taken": 12
+            },
+            {
+                "id": "5",
+                "text": "What is the primary purpose of an operating system's device driver?",
+                "options": [
+                    "To manage user applications",
+                    "To provide a platform for software development",
+                    "To interact with hardware devices",
+                    "To connect users to networks"
+                ],
+                "correct_answer": "To interact with hardware devices",
+                "selected_answer": "To interact with hardware devices",
+                "is_correct": true,
+                "feedback": "The student's answer exactly matches the correct answer, indicating they have a good understanding of the concept.",
+                "hint": "Think about how the OS communicates with external hardware components",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "6",
+                "text": "Which type of operating system is designed for use in embedded systems?",
+                "options": [
+                    "Single-user",
+                    "Multi-user",
+                    "Real-time",
+                    "Cloud-based"
+                ],
+                "correct_answer": "Embedded",
+                "selected_answer": "Single-user",
+                "is_correct": false,
+                "feedback": "A single-user operating system refers to an OS that supports only one user, whereas embedded systems are specialized OS designed for resource-constrained devices.",
+                "hint": "Consider the limitations and requirements of small devices",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "7",
+                "text": "What is a key benefit of using an operating system's built-in memory management?",
+                "options": [
+                    "Improved security",
+                    "Enhanced performance",
+                    "Efficient use of resources",
+                    "Simplified user interface"
+                ],
+                "correct_answer": "Efficient use of resources",
+                "selected_answer": "Efficient use of resources",
+                "is_correct": true,
+                "feedback": "The student's answer matches the correct answer exactly, indicating that they have accurately identified the key benefit of using an operating system's built-in memory management.",
+                "hint": "Think about how the OS manages hardware resources for better performance",
+                "used_hint": true,
+                "time_taken": 12
+            },
+            {
+                "id": "8",
+                "text": "Which of the following is a characteristic of a distributed operating system?",
+                "options": [
+                    "Single-user",
+                    "Multi-user",
+                    "Centralized control",
+                    "Decentralized control"
+                ],
+                "correct_answer": "Decentralized control",
+                "selected_answer": "Single-user",
+                "is_correct": false,
+                "feedback": "A single-user system refers to a system that can only be used by one user at a time, which is not a characteristic of a distributed operating system.",
+                "hint": "Consider how multiple systems work together to achieve a common goal",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "9",
+                "text": "What is the primary function of an operating system's kernel?",
+                "options": [
+                    "To manage user applications",
+                    "To provide a platform for software development",
+                    "To interact with hardware devices",
+                    "To manage system resources"
+                ],
+                "correct_answer": "To manage system resources",
+                "selected_answer": "To manage system resources",
+                "is_correct": true,
+                "feedback": "The student's answer 'To manage system resources' is semantically identical to the correct answer, but it does not provide any additional context or detail. Therefore, it can be considered correct in a simplified sense.",
+                "hint": "Think about what allows different components to work together",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "10",
+                "text": "Which type of operating system is designed for use in servers?",
+                "options": [
+                    "Single-user",
+                    "Multi-user",
+                    "Real-time",
+                    "Cloud-based"
+                ],
+                "correct_answer": "Multi-user",
+                "selected_answer": "Single-user",
+                "is_correct": false,
+                "feedback": "Single-user operating systems are designed for personal use, whereas multi-user operating systems support multiple users and are often used in server environments.",
+                "hint": "Consider the requirements of multiple users accessing shared resources",
+                "used_hint": true,
+                "time_taken": 12
+            },
+            {
+                "id": "11",
+                "text": "What is a key feature of an operating system's backup and restore process?",
+                "options": [
+                    "To ensure data integrity",
+                    "To improve performance",
+                    "To simplify user interface",
+                    "To increase security"
+                ],
+                "correct_answer": "To ensure data integrity",
+                "selected_answer": "To ensure data integrity",
+                "is_correct": true,
+                "feedback": "The student's answer 'To ensure data integrity' is semantically identical to the correct answer, as both convey the importance of maintaining the accuracy and consistency of backed-up data during the restore process.",
+                "hint": "Think about why data recovery is important for the smooth operation of a system",
+                "used_hint": false,
+                "time_taken": 12
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Single-user",
+                "Real-time",
+                "Open-source",
+                "Embedded systems",
+                "Distributed operating system"
+            ],
+            "cheat_sheet": [
+                "A single-user OS can be real-time or non-real-time.",
+                "Open-source OS means open for modification, not free to use.",
+                "Embedded systems are specialized OS for resource-constrained devices.",
+                "Distributed operating system allows multiple users.",
+                "Single-user OS supports one user at a time."
+            ],
+            "resources": [
+                {
+                    "title": "OS Concepts",
+                    "url": "https://en.wikipedia.org/wiki/Operating_system"
+                },
+                {
+                    "title": "Real-time Operating Systems",
+                    "url": "https://www.tutorialspoint.com real-time-operating-systems.htm"
+                },
+                {
+                    "title": "Open-Source Operating Systems",
+                    "url": "https://opensource.org definition"
+                }
+            ],
+            "summary": "Single-user operating systems support one user at a time, whereas real-time OS guarantees speed. Open-source OS allows modification and is not free to use."
+        }
+    },
+    {
+        "attempt_id": "16-bb8caa0077",
+        "user_id": "16",
+        "topic_id": "ds",
+        "topic_name": "Data Structures",
+        "timestamp": "2026-04-04T20:28:47.012202",
+        "score": 0.0,
+        "avg_time": 0.0,
+        "total_time": 0,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 10,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [],
+        "ai_insights": {
+            "focus_concepts": [
+                "Advanced Application",
+                "Speed + Accuracy",
+                "Concept Transfer"
+            ],
+            "cheat_sheet": [
+                "Attempt mixed-difficulty questions with a strict timer.",
+                "Teach one concept aloud in 2 minutes from memory.",
+                "Solve one unseen problem and write your reasoning steps."
+            ],
+            "resources": [
+                {
+                    "title": "Advanced Data Structures practice sets",
+                    "url": "https://www.google.com/search?q=advanced+Data+Structures+practice"
+                },
+                {
+                    "title": "Data Structures interview questions",
+                    "url": "https://www.google.com/search?q=Data+Structures+interview+questions"
+                }
+            ],
+            "summary": "Strong attempt. Shift toward advanced and transfer-based practice."
+        }
+    },
+    {
+        "attempt_id": "17-5c0d430e43",
+        "user_id": "17",
+        "topic_id": "os",
+        "topic_name": "Operating Systems",
+        "timestamp": "2026-04-04T20:33:35.033232",
+        "score": 0.0,
+        "avg_time": 12.0,
+        "total_time": 120,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Steady"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 10,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary function of an operating system?",
+                "options": [
+                    "To manage data",
+                    "To execute applications",
+                    "To control hardware resources",
+                    "To provide a user interface"
+                ],
+                "correct_answer": "To control hardware resources",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer does not specify the primary function of an operating system, which is to control hardware resources and manage software applications.",
+                "hint": "Think about what an OS does to make your computer work",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "2",
+                "text": "Which of the following is NOT a characteristic of a monolithic operating system?",
+                "options": [
+                    "Single process per task",
+                    "Single kernel for the entire system",
+                    "Multiple kernels for each application",
+                    "Modular design"
+                ],
+                "correct_answer": "Multiple kernels for each application",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' implies that none of the options are characteristic of a monolithic operating system, which is not entirely correct since multiple kernels for each application is indeed a characteristic of a monolithic operating system",
+                "hint": "Monolithic OS vs. microkernel OS",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "3",
+                "text": "What is the term for a program that runs on an operating system without being aware of its presence?",
+                "options": [
+                    "System software",
+                    "Application software",
+                    "Utility software",
+                    "System utility"
+                ],
+                "correct_answer": "System software",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' does not accurately describe the correct term for a program that runs on an operating system without being aware of its presence.",
+                "hint": "Think about what types of programs run on an OS",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "4",
+                "text": "Which operating system is known for its simplicity and ease of use?",
+                "options": [
+                    "Windows",
+                    "macOS",
+                    "Linux",
+                    "Chrome OS"
+                ],
+                "correct_answer": "Chrome OS",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "Chrome OS is indeed known for its simplicity and ease of use, making it an attractive option for those who value user-friendliness.",
+                "hint": "Think about which OS is designed for everyday users",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "5",
+                "text": "What is the purpose of a boot loader in an operating system?",
+                "options": [
+                    "To execute applications",
+                    "To manage data",
+                    "To control hardware resources",
+                    "To load the kernel into memory"
+                ],
+                "correct_answer": "To load the kernel into memory",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer is semantically identical to the correct answer, but lacks specific details about the boot loader's role in loading the kernel into memory.",
+                "hint": "Think about what happens when you turn on your computer",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "6",
+                "text": "Which of the following is a benefit of using a virtual machine?",
+                "options": [
+                    "Improved system performance",
+                    "Increased security",
+                    "Better resource utilization",
+                    "Easier maintenance"
+                ],
+                "correct_answer": "Better resource utilization",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' is not semantically identical or correct regarding the question. A virtual machine can indeed utilize system resources more efficiently than a bare-metal machine.",
+                "hint": "Think about why people use VMs",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "7",
+                "text": "What is the term for a process that is running in the background without the user's knowledge?",
+                "options": [
+                    "Background task",
+                    "Foreground task",
+                    "System service",
+                    "Daemon"
+                ],
+                "correct_answer": "Background task",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "Background task is not semantically identical to 'None' as it refers to a process running without user knowledge, whereas 'None' implies the absence of any value or presence of nothing.",
+                "hint": "Think about what happens when you close an application",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "8",
+                "text": "Which operating system is known for its open-source nature?",
+                "options": [
+                    "Windows",
+                    "macOS",
+                    "Linux",
+                    "Chrome OS"
+                ],
+                "correct_answer": "Linux",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student answered 'None' which implies that Linux is not open-source, whereas Linux is actually an open-source operating system.",
+                "hint": "Think about which OS has a large community of developers",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "9",
+                "text": "What is the purpose of a device driver in an operating system?",
+                "options": [
+                    "To execute applications",
+                    "To manage data",
+                    "To control hardware resources",
+                    "To communicate with hardware devices"
+                ],
+                "correct_answer": "To communicate with hardware devices",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The Student's Answer is semantically identical to the correct answer, but it doesn't provide a reason or clarify what it means by 'None', making it an incomplete response.",
+                "hint": "Think about what happens when you plug in a new device",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "10",
+                "text": "Which of the following is a type of file system?",
+                "options": [
+                    "FAT",
+                    "NTFS",
+                    "HFS+",
+                    "APFS"
+                ],
+                "correct_answer": "NTFS",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "NTFS stands for New Technology File System, which is indeed a type of file system.",
+                "hint": "Think about which file systems are commonly used on Windows",
+                "used_hint": false,
+                "time_taken": 12
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "primary function of an operating system",
+                "monolithic operating system",
+                "boot loader",
+                "virtual machine",
+                "background task",
+                "NTFS file system"
+            ],
+            "cheat_sheet": [
+                "OS: Controls hardware resources, manages software apps.",
+                "Monolithic OS: Single kernel for entire system.",
+                "Boot Loader: Loads kernel into memory during boot.",
+                "Virtual Machine: Runs on top of host OS, uses fewer resources.",
+                "Background Task: Runs without user knowledge.",
+                "NTFS: New Technology File System."
+            ],
+            "resources": [
+                {
+                    "title": "OS Concepts",
+                    "url": "https://en.wikipedia.org/wiki/Operating_system"
+                },
+                {
+                    "title": "Monolithic vs Microkernel OS",
+                    "url": "https://www.geeksforgeeks.org/difference-between-monolithic-and-microkernel-operating-systems/"
+                },
+                {
+                    "title": "Boot Loader Process",
+                    "url": "https://www.youtube.com/watch?v=2bDqyf8BcCw"
+                }
+            ],
+            "summary": "An operating system is a software that manages computer hardware resources and provides common services to computer programs running on the hardware. A monolithic OS has a single kernel for the entire system, while a microkernel OS has separate kernels for each application."
+        }
+    },
+    {
+        "attempt_id": "16-ed0ba085bc",
+        "user_id": "16",
+        "topic_id": "cn",
+        "topic_name": "Computer Networks",
+        "timestamp": "2026-04-04T20:48:54.009440",
+        "score": 18.18,
+        "avg_time": 5.45,
+        "total_time": 59.98,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 11,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary function of a router in a computer network?",
+                "options": [
+                    "To provide a connection to the internet",
+                    "To manage network traffic",
+                    "To forward packets between networks",
+                    "To provide a default gateway"
+                ],
+                "correct_answer": "To forward packets between networks",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer is not semantically identical to the correct answer, as forwarding packets between networks implies the router is acting as a gateway or endpoint, whereas its primary function is more accurately described as directing traffic between networks.",
+                "hint": "Think about how data is transmitted between devices",
+                "used_hint": false,
+                "time_taken": 12
+            },
+            {
+                "id": "2",
+                "text": "What type of connection is used to connect two devices directly?",
+                "options": [
+                    "Wired connection",
+                    "Wireless connection",
+                    "Fiber optic connection",
+                    "Bluetooth connection"
+                ],
+                "correct_answer": "Wired connection",
+                "selected_answer": "Wired connection",
+                "is_correct": true,
+                "feedback": "The student's answer is semantically identical to the correct answer, which means it expresses the same idea or concept. Therefore, it can be considered a correct response.",
+                "hint": "Consider the types of cables commonly used in networks",
+                "used_hint": true,
+                "time_taken": 11.284
+            },
+            {
+                "id": "3",
+                "text": "What is a subnet mask used for?",
+                "options": [
+                    "To determine the IP address of a device",
+                    "To determine the network ID and host ID of an IP address",
+                    "To prioritize network traffic",
+                    "To encrypt data transmission"
+                ],
+                "correct_answer": "To determine the network ID and host ID of an IP address",
+                "selected_answer": "To determine the IP address of a device",
+                "is_correct": false,
+                "feedback": "The student's answer does not directly address how a subnet mask is used, instead suggesting it determines the IP address itself.",
+                "hint": "Understand how IP addresses are divided into subnets",
+                "used_hint": true,
+                "time_taken": 11.921
+            },
+            {
+                "id": "4",
+                "text": "What is a hub used for in a computer network?",
+                "options": [
+                    "To connect devices to a switch",
+                    "To distribute incoming traffic across multiple ports",
+                    "To provide redundancy in network connections",
+                    "To terminate network cables"
+                ],
+                "correct_answer": "To distribute incoming traffic across multiple ports",
+                "selected_answer": "To distribute incoming traffic across multiple ports",
+                "is_correct": true,
+                "feedback": "The student's answer matches the correct definition of a hub in a computer network, which is to distribute incoming traffic across multiple ports.",
+                "hint": "Think about how data is transmitted between devices",
+                "used_hint": true,
+                "time_taken": 12
+            },
+            {
+                "id": "5",
+                "text": "What is the purpose of a firewall?",
+                "options": [
+                    "To allow incoming connections to specific ports",
+                    "To block unauthorized access to the network",
+                    "To prioritize network traffic",
+                    "To encrypt data transmission"
+                ],
+                "correct_answer": "To block unauthorized access to the network",
+                "selected_answer": "To prioritize network traffic",
+                "is_correct": false,
+                "feedback": "Prioritizing network traffic is not the primary purpose of a firewall, but rather blocking unauthorized access to prevent hacking and malicious activity.",
+                "hint": "Consider how firewalls are used to protect networks",
+                "used_hint": false,
+                "time_taken": 2.9
+            },
+            {
+                "id": "6",
+                "text": "What is a repeater used for in a computer network?",
+                "options": [
+                    "To extend the range of a wireless signal",
+                    "To boost the strength of an analog signal",
+                    "To convert digital signals to analog signals",
+                    "To filter out noise from an analog signal"
+                ],
+                "correct_answer": "To extend the range of a wireless signal",
+                "selected_answer": "To filter out noise from an analog signal",
+                "is_correct": false,
+                "feedback": "The student's answer is semantically identical, but a repeater is used to extend the range of a wireless signal by re-transmitting it, not filter out noise from an analog signal.",
+                "hint": "Think about how repeaters are used in wireless networks",
+                "used_hint": false,
+                "time_taken": 1.166
+            },
+            {
+                "id": "7",
+                "text": "What is a network segment?",
+                "options": [
+                    "A separate network within a larger network",
+                    "A single device connected to a network",
+                    "A specific IP address range",
+                    "A type of network protocol"
+                ],
+                "correct_answer": "A separate network within a larger network",
+                "selected_answer": "A specific IP address range",
+                "is_correct": false,
+                "feedback": "A specific IP address range is too narrow, network segments can be larger or smaller than an entire subnet, but refer to a sub-network within a larger network.",
+                "hint": "Understand how networks are divided into smaller segments",
+                "used_hint": false,
+                "time_taken": 0.866
+            },
+            {
+                "id": "8",
+                "text": "What is a bridge used for in a computer network?",
+                "options": [
+                    "To connect two or more networks together",
+                    "To filter incoming traffic based on IP addresses",
+                    "To prioritize network traffic",
+                    "To encrypt data transmission"
+                ],
+                "correct_answer": "To connect two or more networks together",
+                "selected_answer": "To filter incoming traffic based on IP addresses",
+                "is_correct": false,
+                "feedback": "Filtering incoming traffic based on IP addresses is actually the function of a firewall, not a bridge.",
+                "hint": "Think about how bridges are used to connect different networks",
+                "used_hint": false,
+                "time_taken": 1
+            },
+            {
+                "id": "9",
+                "text": "What is a Virtual Local Area Network (VLAN)?",
+                "options": [
+                    "A network that is isolated from other networks",
+                    "A type of wireless network",
+                    "A specific IP address range",
+                    "A type of network protocol"
+                ],
+                "correct_answer": "A network that is isolated from other networks",
+                "selected_answer": "A type of network protocol",
+                "is_correct": false,
+                "feedback": "A type of network protocol is not a correct definition for a Virtual Local Area Network (VLAN), which is a network that is logically divided into smaller networks over an existing LAN.",
+                "hint": "Understand how VLANs are used to segment networks",
+                "used_hint": false,
+                "time_taken": 0.766
+            },
+            {
+                "id": "10",
+                "text": "What is a gateway?",
+                "options": [
+                    "A device that connects two or more networks",
+                    "A type of firewall",
+                    "A specific IP address range",
+                    "A type of network protocol"
+                ],
+                "correct_answer": "A device that connects two or more networks",
+                "selected_answer": "A type of network protocol",
+                "is_correct": false,
+                "feedback": "A 'gateway' refers to a device that connects two or more networks, allowing data to pass between them, whereas a 'network protocol' is a set of rules and conventions used for communication between devices on a network.",
+                "hint": "Think about how gateways are used to connect different networks",
+                "used_hint": false,
+                "time_taken": 1.298
+            },
+            {
+                "id": "11",
+                "text": "What is the term for a network protocol that allows devices to communicate with each other?",
+                "options": [
+                    "TCP/IP",
+                    "HTTP",
+                    "FTP",
+                    "DNS"
+                ],
+                "correct_answer": "TCP/IP",
+                "selected_answer": "HTTP",
+                "is_correct": false,
+                "feedback": "HTTP (Hypertext Transfer Protocol) is primarily used for transferring data over the web, whereas TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of protocols that enable device communication across various networks.",
+                "hint": "Understand how protocols are used to enable communication between devices",
+                "used_hint": false,
+                "time_taken": 4.782
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Computer Networks",
+                "Core Concepts",
+                "Problem Solving"
+            ],
+            "cheat_sheet": [
+                "Define Computer Networks in one line and write one example.",
+                "Create a compare/contrast table for two closely related ideas.",
+                "Practice 5 short MCQs and explain each answer in one sentence."
+            ],
+            "resources": [
+                {
+                    "title": "Computer Networks - GeeksforGeeks",
+                    "url": "https://www.geeksforgeeks.org/search/?q=Computer+Networks"
+                },
+                {
+                    "title": "Computer Networks - Tutorialspoint",
+                    "url": "https://www.tutorialspoint.com/search/Computer-Networks.htm"
+                },
+                {
+                    "title": "Computer Networks - YouTube quick revision",
+                    "url": "https://www.youtube.com/results?search_query=Computer+Networks+revision"
+                }
+            ],
+            "summary": "Focus on concept clarity and short iterative practice before the next quiz."
+        }
+    },
+    {
+        "attempt_id": "16-d92dc5eece",
+        "user_id": "16",
+        "topic_id": "os",
+        "topic_name": "Operating Systems",
+        "timestamp": "2026-04-04T21:02:47.871660",
+        "score": 18.18,
+        "avg_time": 2.12,
+        "total_time": 23.37,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 11,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary function of a boot loader?",
+                "options": [
+                    "To manage memory",
+                    "To manage storage",
+                    "To load an operating system into memory",
+                    "To manage network connections"
+                ],
+                "correct_answer": "To load an operating system into memory",
+                "selected_answer": "To manage memory",
+                "is_correct": false,
+                "feedback": "The student's answer, 'To manage memory', is partially correct but not the primary function of a boot loader. A boot loader is responsible for loading an operating system into memory.",
+                "hint": "Think about what happens when you start your computer",
+                "used_hint": false,
+                "time_taken": 4.769
+            },
+            {
+                "id": "2",
+                "text": "Which of the following types of data is stored in a hard drive?",
+                "options": [
+                    "RAM",
+                    "CPU",
+                    "GPU",
+                    "Storage data"
+                ],
+                "correct_answer": "Storage data",
+                "selected_answer": "Storage data",
+                "is_correct": true,
+                "feedback": "The student's answer, 'Storage data', is semantically identical to the correct answer and accurately describes the type of data stored in a hard drive.",
+                "hint": "Think about where your files are saved",
+                "used_hint": false,
+                "time_taken": 5.678
+            },
+            {
+                "id": "3",
+                "text": "What is the difference between a 32-bit and 64-bit operating system?",
+                "options": [
+                    "A 64-bit OS can run on any hardware",
+                    "A 32-bit OS is faster than a 64-bit OS",
+                    "A 64-bit OS can address more memory than a 32-bit OS",
+                    "A 32-bit OS is better for gaming"
+                ],
+                "correct_answer": "A 64-bit OS can address more memory than a 32-bit OS",
+                "selected_answer": "A 64-bit OS can run on any hardware",
+                "is_correct": false,
+                "feedback": "While a 64-bit OS can indeed run on more hardware configurations, its primary advantage is that it can address a much larger memory space than a 32-bit OS.",
+                "hint": "Think about the differences between old and new computers",
+                "used_hint": false,
+                "time_taken": 3.479
+            },
+            {
+                "id": "4",
+                "text": "What is the purpose of the BIOS?",
+                "options": [
+                    "To manage storage",
+                    "To manage network connections",
+                    "To load an operating system into memory",
+                    "To configure hardware components"
+                ],
+                "correct_answer": "To configure hardware components",
+                "selected_answer": "To configure hardware components",
+                "is_correct": true,
+                "feedback": "The Student's Answer accurately describes the purpose of the BIOS, which is to configure and set up a computer's hardware components before booting.",
+                "hint": "Think about what happens when you start your computer and it boots up",
+                "used_hint": false,
+                "time_taken": 2.448
+            },
+            {
+                "id": "5",
+                "text": "Which type of process is a program that runs in the background without requiring user interaction?",
+                "options": [
+                    "Foreground process",
+                    "Background process",
+                    "System process",
+                    "User interface process"
+                ],
+                "correct_answer": "Background process",
+                "selected_answer": "User interface process",
+                "is_correct": false,
+                "feedback": "User interface process refers to the part of an operating system that manages user interaction, so it's not a process that runs in the background without requiring user interaction.",
+                "hint": "Think about what happens when you're watching a movie or listening to music on your computer",
+                "used_hint": false,
+                "time_taken": 2.666
+            },
+            {
+                "id": "6",
+                "text": "What is the difference between a file system and a disk format?",
+                "options": [
+                    "A file system is a type of disk format",
+                    "A file system is used for storing data on a hard drive",
+                    "A disk format is a type of file system",
+                    "A file system is a way to organize files on a hard drive"
+                ],
+                "correct_answer": "A file system is used for storing data on a hard drive",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer does not provide any information about the difference between a file system and a disk format, only stating that neither is correct.",
+                "hint": "Think about how you store and manage your files",
+                "used_hint": false,
+                "time_taken": 0.483
+            },
+            {
+                "id": "7",
+                "text": "What is the purpose of the Task Manager?",
+                "options": [
+                    "To configure hardware components",
+                    "To load an operating system into memory",
+                    "To manage storage",
+                    "To view running processes and resources"
+                ],
+                "correct_answer": "To view running processes and resources",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The Student's Answer 'None' does not provide any information about the purpose of the Task Manager, whereas the correct answer is that it allows users to view running processes and resources.",
+                "hint": "Think about what you do when you want to know what's happening on your computer",
+                "used_hint": false,
+                "time_taken": 0.682
+            },
+            {
+                "id": "8",
+                "text": "Which type of operating system is best suited for mobile devices?",
+                "options": [
+                    "Desktop OS",
+                    "Server OS",
+                    "Mobile OS",
+                    "Embedded OS"
+                ],
+                "correct_answer": "Mobile OS",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' is semantically identical but not correct because it implies that there is no suitable operating system for mobile devices, whereas the correct answer 'Mobile OS' actually includes Android and iOS as examples of mobile operating systems.",
+                "hint": "Think about the characteristics of smartphones and tablets",
+                "used_hint": false,
+                "time_taken": 0.534
+            },
+            {
+                "id": "9",
+                "text": "What is the difference between a firewall and an antivirus program?",
+                "options": [
+                    "A firewall blocks all incoming connections",
+                    "An antivirus program detects malware",
+                    "Both are used for network security",
+                    "Neither is used for network security"
+                ],
+                "correct_answer": "Both are used for network security",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer lacks specificity, as both firewalls and antivirus programs are indeed used for network security, but they serve distinct purposes.",
+                "hint": "Think about how you protect your computer from threats",
+                "used_hint": false,
+                "time_taken": 0.851
+            },
+            {
+                "id": "10",
+                "text": "What is the purpose of the registry?",
+                "options": [
+                    "To store system settings",
+                    "To manage storage",
+                    "To configure hardware components",
+                    "To manage network connections"
+                ],
+                "correct_answer": "To store system settings",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' does not accurately describe the purpose of the registry, which is to store system settings.",
+                "hint": "Think about how you customize your computer's behavior",
+                "used_hint": false,
+                "time_taken": 0.747
+            },
+            {
+                "id": "11",
+                "text": "Which type of operating system is best suited for embedded systems?",
+                "options": [
+                    "Desktop OS",
+                    "Server OS",
+                    "Mobile OS",
+                    "Embedded OS"
+                ],
+                "correct_answer": "Embedded OS",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer 'None' is semantically identical to the correct answer 'Embedded OS', but it does not provide a meaningful or informative response regarding the question.",
+                "hint": "Think about the characteristics of smart home devices and other connected appliances",
+                "used_hint": false,
+                "time_taken": 1.032
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Operating Systems",
+                "Core Concepts",
+                "Problem Solving"
+            ],
+            "cheat_sheet": [
+                "Define Operating Systems in one line and write one example.",
+                "Create a compare/contrast table for two closely related ideas.",
+                "Practice 5 short MCQs and explain each answer in one sentence."
+            ],
+            "resources": [
+                {
+                    "title": "Operating Systems - GeeksforGeeks",
+                    "url": "https://www.geeksforgeeks.org/search/?q=Operating+Systems"
+                },
+                {
+                    "title": "Operating Systems - Tutorialspoint",
+                    "url": "https://www.tutorialspoint.com/search/Operating-Systems.htm"
+                },
+                {
+                    "title": "Operating Systems - YouTube quick revision",
+                    "url": "https://www.youtube.com/results?search_query=Operating+Systems+revision"
+                }
+            ],
+            "summary": "Focus on concept clarity and short iterative practice before the next quiz."
+        }
+    },
+    {
+        "attempt_id": "16-93c126ec40",
+        "user_id": "16",
+        "topic_id": "dbms",
+        "topic_name": "DBMS",
+        "timestamp": "2026-04-04T21:07:12.931005",
+        "score": 0.0,
+        "avg_time": 1.92,
+        "total_time": 19.19,
+        "adaptation": {
+            "new_difficulty": "medium",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.24067796610169492,
+        "behavior_cluster": "Steady Learner",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "medium",
+            "num_questions": 10,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 6
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What is the primary purpose of a Database Management System (DBMS)?",
+                "options": [
+                    "To store data",
+                    "To manage data",
+                    "To process data",
+                    "To retrieve data"
+                ],
+                "correct_answer": "To manage data",
+                "selected_answer": "To store data",
+                "is_correct": false,
+                "feedback": "The answer 'To store data' is semantically identical but not fully correct, as it only describes one aspect of a DBMS's primary purpose.",
+                "hint": "Think about what DBMS does beyond just storing data",
+                "used_hint": false,
+                "time_taken": 6.695
+            },
+            {
+                "id": "2",
+                "text": "What is the difference between a Relational Database and a NoSQL Database?",
+                "options": [
+                    "Relational databases are more flexible, while NoSQL databases are more structured",
+                    "Relational databases are more structured, while NoSQL databases are more flexible",
+                    "Relational databases are used for large datasets, while NoSQL databases are used for small datasets",
+                    "Relational databases are ACID compliant, while NoSQL databases are not"
+                ],
+                "correct_answer": "Relational databases are more structured, while NoSQL databases are more flexible",
+                "selected_answer": "Relational databases are ACID compliant, while NoSQL databases are not",
+                "is_correct": false,
+                "feedback": "The student's answer partially addresses the question, but it doesn't fully capture the key difference between relational and NoSQL databases.",
+                "hint": "Consider the characteristics of each type of database",
+                "used_hint": false,
+                "time_taken": 1.243
+            },
+            {
+                "id": "3",
+                "text": "What is the purpose of Indexing in a DBMS?",
+                "options": [
+                    "To improve data security",
+                    "To increase data storage capacity",
+                    "To speed up query performance",
+                    "To reduce data redundancy"
+                ],
+                "correct_answer": "To speed up query performance",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The student's answer does not accurately capture the primary purpose of indexing in DBMS, which is to speed up query performance by facilitating faster data retrieval and manipulation.",
+                "hint": "Think about how indexing affects query execution time",
+                "used_hint": false,
+                "time_taken": 1.166
+            },
+            {
+                "id": "4",
+                "text": "What is the difference between Normalization and Denormalization?",
+                "options": [
+                    "Normalization reduces data redundancy, while Denormalization increases data consistency",
+                    "Normalization increases data redundancy, while Denormalization reduces data consistency",
+                    "Normalization improves query performance, while Denormalization worsens it",
+                    "Normalization slows down query performance, while Denormalization speeds it up"
+                ],
+                "correct_answer": "Normalization reduces data redundancy, while Denormalization increases data consistency",
+                "selected_answer": "Normalization slows down query performance, while Denormalization speeds it up",
+                "is_correct": false,
+                "feedback": "The student's answer incorrectly states that normalization affects query performance, when in fact, it does not directly impact query speed. Normalization improves data organization and reduces redundancy.",
+                "hint": "Consider the trade-offs between these two data design techniques",
+                "used_hint": false,
+                "time_taken": 1.3
+            },
+            {
+                "id": "5",
+                "text": "What is the purpose of Triggers in a DBMS?",
+                "options": [
+                    "To enforce data integrity constraints",
+                    "To improve query performance",
+                    "To reduce data storage capacity",
+                    "To increase data security"
+                ],
+                "correct_answer": "To enforce data integrity constraints",
+                "selected_answer": "To reduce data storage capacity",
+                "is_correct": false,
+                "feedback": "The student's answer is semantically identical to the correct answer, but it provides an incorrect definition. Triggers are actually used to enforce data integrity constraints by automatically executing a set of instructions when specific conditions occur.",
+                "hint": "Think about how triggers affect data consistency",
+                "used_hint": false,
+                "time_taken": 1.016
+            },
+            {
+                "id": "6",
+                "text": "What is the difference between ACID and DCP?",
+                "options": [
+                    "ACID ensures atomicity, consistency, isolation, and durability",
+                    "DCP stands for Data Consistency Protocol",
+                    "ACID guarantees data security, while DCP guarantees data integrity",
+                    "DCP is a subset of ACID"
+                ],
+                "correct_answer": "ACID ensures atomicity, consistency, isolation, and durability",
+                "selected_answer": "DCP is a subset of ACID",
+                "is_correct": false,
+                "feedback": "DCP stands for Data Consistency Property, which is not a subset of ACID but rather one of the requirements that ACID ensures.",
+                "hint": "Consider the characteristics of each transaction protocol",
+                "used_hint": false,
+                "time_taken": 2.182
+            },
+            {
+                "id": "7",
+                "text": "What is the purpose of Views in a DBMS?",
+                "options": [
+                    "To improve data security",
+                    "To reduce data storage capacity",
+                    "To increase query performance",
+                    "To simplify complex queries"
+                ],
+                "correct_answer": "To simplify complex queries",
+                "selected_answer": "To increase query performance",
+                "is_correct": false,
+                "feedback": "The purpose of Views in a DBMS is not to increase query performance, but rather to simplify complex queries by abstracting them into simpler, yet equivalent, queries.",
+                "hint": "Think about how views affect query complexity",
+                "used_hint": false,
+                "time_taken": 1.465
+            },
+            {
+                "id": "8",
+                "text": "What is the difference between a Database and a File System?",
+                "options": [
+                    "Databases are used for structured data, while file systems are used for unstructured data",
+                    "Databases provide transactional support, while file systems do not",
+                    "Databases scale horizontally, while file systems scale vertically",
+                    "Databases offer concurrency control, while file systems do not"
+                ],
+                "correct_answer": "Databases provide transactional support, while file systems do not",
+                "selected_answer": "Databases scale horizontally, while file systems scale vertically",
+                "is_correct": false,
+                "feedback": "The student's answer incorrectly states that databases scale horizontally and file systems scale vertically, when in fact it is the opposite: file systems can scale vertically and databases often scale horizontally through sharding or replication.",
+                "hint": "Consider the characteristics of each storage system",
+                "used_hint": false,
+                "time_taken": 1.217
+            },
+            {
+                "id": "9",
+                "text": "What is the purpose of Indexing in a NoSQL Database?",
+                "options": [
+                    "To improve data security",
+                    "To increase data storage capacity",
+                    "To speed up query performance",
+                    "To reduce data redundancy"
+                ],
+                "correct_answer": "To speed up query performance",
+                "selected_answer": "To improve data security",
+                "is_correct": false,
+                "feedback": "Indexing in NoSQL databases is used to improve query performance by allowing faster retrieval of data based on specific criteria.",
+                "hint": "Think about how indexing affects query execution time in NoSQL databases",
+                "used_hint": false,
+                "time_taken": 1.599
+            },
+            {
+                "id": "10",
+                "text": "What is the difference between Data Consistency and Data Availability?",
+                "options": [
+                    "Data consistency ensures data accuracy, while data availability ensures data accessibility",
+                    "Data consistency prioritizes data integrity over data accessibility",
+                    "Data availability prioritizes data accessibility over data integrity",
+                    "Data consistency and data availability are interchangeable terms"
+                ],
+                "correct_answer": "Data consistency ensures data accuracy, while data availability ensures data accessibility",
+                "selected_answer": "Data consistency prioritizes data integrity over data accessibility",
+                "is_correct": false,
+                "feedback": "Data consistency prioritizes data accuracy and integrity, while data availability ensures data is accessible when needed",
+                "hint": "Consider the trade-offs between these two database properties",
+                "used_hint": false,
+                "time_taken": 1.302
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Dbms",
+                "Core Concepts",
+                "Problem Solving"
+            ],
+            "cheat_sheet": [
+                "Define Dbms in one line and write one example.",
+                "Create a compare/contrast table for two closely related ideas.",
+                "Practice 5 short MCQs and explain each answer in one sentence."
+            ],
+            "resources": [
+                {
+                    "title": "DBMS - GeeksforGeeks",
+                    "url": "https://www.geeksforgeeks.org/search/?q=DBMS"
+                },
+                {
+                    "title": "DBMS - Tutorialspoint",
+                    "url": "https://www.tutorialspoint.com/search/DBMS.htm"
+                },
+                {
+                    "title": "DBMS - YouTube quick revision",
+                    "url": "https://www.youtube.com/results?search_query=DBMS+revision"
+                }
+            ],
+            "summary": "Focus on concept clarity and short iterative practice before the next quiz."
+        }
+    },
+    {
+        "attempt_id": "16-86c60d57fe",
+        "user_id": "16",
+        "topic_id": "ds",
+        "topic_name": "Data Structures",
+        "timestamp": "2026-04-04T21:16:45.387627",
+        "score": 33.33,
+        "avg_time": 4.06,
+        "total_time": 36.56,
+        "adaptation": {
+            "new_difficulty": "hard",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "Fast-Paced",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. You're moving fast! Don't forget to double-check the tricky details.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "hard",
+            "num_questions": 9,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 5
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "What should you do first when solving a new problem in Data Structures?",
+                "options": [
+                    "Identify core constraints",
+                    "Pick a random method",
+                    "Skip requirement analysis",
+                    "Copy past solutions blindly"
+                ],
+                "correct_answer": "Identify core constraints",
+                "selected_answer": "Identify core constraints",
+                "is_correct": true,
+                "feedback": "Identify core constraints is a fundamental step in solving new problems in Data Structures, as it helps to narrow down the scope and understand the essential limitations of the problem.",
+                "hint": "Problem framing often determines solution quality.",
+                "used_hint": false,
+                "time_taken": 10
+            },
+            {
+                "id": "2",
+                "text": "What demonstrates mastery transfer in Data Structures?",
+                "options": [
+                    "Applying ideas to new scenarios",
+                    "Repeating memorized answers",
+                    "Avoiding unfamiliar tasks",
+                    "Using one fixed template"
+                ],
+                "correct_answer": "Applying ideas to new scenarios",
+                "selected_answer": "Avoiding unfamiliar tasks",
+                "is_correct": false,
+                "feedback": "Avoiding unfamiliar tasks does not demonstrate mastery transfer, but rather shows lack of exposure to new scenarios.",
+                "hint": "Transfer means adapting concepts beyond practiced examples.",
+                "used_hint": false,
+                "time_taken": 9.909
+            },
+            {
+                "id": "3",
+                "text": "What is the primary concept covered in Data Structures?",
+                "options": [
+                    "Fundamental principles",
+                    "Advanced techniques",
+                    "Historical context",
+                    "Practical applications"
+                ],
+                "correct_answer": "Fundamental principles",
+                "selected_answer": "Fundamental principles",
+                "is_correct": true,
+                "feedback": "The student's answer matches the correct answer, indicating they have understood the primary concept covered in Data Structures.",
+                "hint": "Think about the basic building blocks introduced first.",
+                "used_hint": false,
+                "time_taken": 3.208
+            },
+            {
+                "id": "4",
+                "text": "Which habit helps avoid common errors in Data Structures?",
+                "options": [
+                    "Checking assumptions",
+                    "Rushing to final answer",
+                    "Skipping edge cases",
+                    "Avoiding feedback"
+                ],
+                "correct_answer": "Checking assumptions",
+                "selected_answer": "Skipping edge cases",
+                "is_correct": false,
+                "feedback": "Skipping edge cases does not necessarily help avoid common errors in Data Structures, as it may skip important boundary conditions or corner cases that can lead to incorrect results.",
+                "hint": "Pause and validate before finalizing a solution.",
+                "used_hint": false,
+                "time_taken": 2.754
+            },
+            {
+                "id": "5",
+                "text": "Which approach is best for understanding Data Structures?",
+                "options": [
+                    "Sequential learning",
+                    "Random exploration",
+                    "Memorization only",
+                    "Skipping basics"
+                ],
+                "correct_answer": "Sequential learning",
+                "selected_answer": "Sequential learning",
+                "is_correct": true,
+                "feedback": "The student's answer is semantically identical to the correct answer, which makes it technically correct but not necessarily the most effective approach for understanding data structures.",
+                "hint": "A structured learning path usually works better than jumping around.",
+                "used_hint": false,
+                "time_taken": 2.239
+            },
+            {
+                "id": "6",
+                "text": "What is the best indicator that you are ready for advanced Data Structures material?",
+                "options": [
+                    "Consistent accuracy with explanation",
+                    "Occasional lucky guesses",
+                    "Watching videos only",
+                    "Skipping foundational quizzes"
+                ],
+                "correct_answer": "Consistent accuracy with explanation",
+                "selected_answer": "Skipping foundational quizzes",
+                "is_correct": false,
+                "feedback": "Skipping foundational quizzes does not indicate readiness for advanced Data Structures material. Consistent accuracy with explanations is a better indicator as it demonstrates understanding and application of concepts.",
+                "hint": "Readiness combines correctness with clear reasoning.",
+                "used_hint": false,
+                "time_taken": 2.973
+            },
+            {
+                "id": "7",
+                "text": "What is the most important prerequisite for mastering Data Structures?",
+                "options": [
+                    "Strong foundational knowledge",
+                    "Memorizing formulas",
+                    "Avoiding practice",
+                    "Skipping lectures"
+                ],
+                "correct_answer": "Strong foundational knowledge",
+                "selected_answer": "Skipping lectures",
+                "is_correct": false,
+                "feedback": "Skipping lectures does not provide strong foundational knowledge, which is crucial for mastering Data Structures.",
+                "hint": "Deep mastery starts with concepts, not shortcuts.",
+                "used_hint": false,
+                "time_taken": 1.365
+            },
+            {
+                "id": "8",
+                "text": "Which of the following best describes a core application of Data Structures?",
+                "options": [
+                    "Real-world problem solving",
+                    "Entertainment only",
+                    "No practical use",
+                    "Historical study"
+                ],
+                "correct_answer": "Real-world problem solving",
+                "selected_answer": "No practical use",
+                "is_correct": false,
+                "feedback": "Data structures are used to organize and manage complex data in a way that makes it easier to store, retrieve, and manipulate. They are essential for solving real-world problems efficiently.",
+                "hint": "Look for the option connected to practical utility.",
+                "used_hint": false,
+                "time_taken": 1.732
+            },
+            {
+                "id": "9",
+                "text": "Which signal best indicates improving understanding of Data Structures?",
+                "options": [
+                    "Explaining concepts clearly",
+                    "Guessing faster",
+                    "Watching without practice",
+                    "Avoiding difficult problems"
+                ],
+                "correct_answer": "Explaining concepts clearly",
+                "selected_answer": "Watching without practice",
+                "is_correct": false,
+                "feedback": "Watching without practice doesn't necessarily indicate improving understanding of Data Structures, whereas explaining concepts clearly does.",
+                "hint": "True understanding appears when you can teach someone else.",
+                "used_hint": false,
+                "time_taken": 2.383
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Data Structures",
+                "Core Concepts",
+                "Problem Solving"
+            ],
+            "cheat_sheet": [
+                "Define Data Structures in one line and write one example.",
+                "Create a compare/contrast table for two closely related ideas.",
+                "Practice 5 short MCQs and explain each answer in one sentence."
+            ],
+            "resources": [
+                {
+                    "title": "Data Structures - GeeksforGeeks",
+                    "url": "https://www.geeksforgeeks.org/search/?q=Data+Structures"
+                },
+                {
+                    "title": "Data Structures - Tutorialspoint",
+                    "url": "https://www.tutorialspoint.com/search/Data-Structures.htm"
+                },
+                {
+                    "title": "Data Structures - YouTube quick revision",
+                    "url": "https://www.youtube.com/results?search_query=Data+Structures+revision"
+                }
+            ],
+            "summary": "Focus on concept clarity and short iterative practice before the next quiz."
+        }
+    },
+    {
+        "attempt_id": "16-bd41ade17d",
+        "user_id": "16",
+        "topic_id": "os",
+        "topic_name": "Operating Systems",
+        "timestamp": "2026-04-04T21:27:33.705113",
+        "score": 22.22,
+        "avg_time": 3.29,
+        "total_time": 29.59,
+        "adaptation": {
+            "new_difficulty": "hard",
+            "speed_label": "Fast"
+        },
+        "mastery": 0.2304919953761619,
+        "behavior_cluster": "Fast-Paced",
+        "recommendation": {
+            "action": "Revision Recommended",
+            "message": "You might want to review this concept again. We've unlocked some simpler resources for you. You're moving fast! Don't forget to double-check the tricky details.",
+            "next_difficulty": "easy"
+        },
+        "quiz_meta": {
+            "difficulty": "hard",
+            "num_questions": 9,
+            "timer_seconds": 0,
+            "hint_unlock_seconds": 5
+        },
+        "question_results": [
+            {
+                "id": "1",
+                "text": "A monolithic operating system is characterized by its ability to manage a single process at a time. Which of the following types of processes is NOT typically managed by a monolithic OS?",
+                "options": [
+                    "Process manager",
+                    "Device driver",
+                    "File system",
+                    "System call"
+                ],
+                "correct_answer": "System call",
+                "selected_answer": null,
+                "is_correct": false,
+                "feedback": "The Student's Answer 'None' is not semantically identical or correct because the monolithic operating system can manage user-level processes, but it cannot manage low-level system call process that communicate directly with hardware.",
+                "hint": "Consider how monolithic operating systems are designed to handle process management",
+                "used_hint": false,
+                "time_taken": 10
+            },
+            {
+                "id": "2",
+                "text": "In a multi-user operating system, what is the primary purpose of a security model?",
+                "options": [
+                    "To manage user accounts",
+                    "To allocate resources efficiently",
+                    "To ensure data integrity and access control",
+                    "To optimize performance"
+                ],
+                "correct_answer": "To ensure data integrity and access control",
+                "selected_answer": "To allocate resources efficiently",
+                "is_correct": false,
+                "feedback": "The student's answer is not semantically identical to the correct answer regarding the question. Allocating resources efficiently is a concern in operating systems, but it is not the primary purpose of a security model.",
+                "hint": "Think about how different types of operating systems handle user interactions",
+                "used_hint": true,
+                "time_taken": 8.056
+            },
+            {
+                "id": "3",
+                "text": "A real-time operating system is designed to prioritize real-time responses. What is a key characteristic of such an OS?",
+                "options": [
+                    "It can run multiple processes simultaneously",
+                    "It has a built-in file system",
+                    "It prioritizes tasks based on their deadlines",
+                    "It uses a preemptive scheduling algorithm"
+                ],
+                "correct_answer": "It prioritizes tasks based on their deadlines",
+                "selected_answer": "It uses a preemptive scheduling algorithm",
+                "is_correct": false,
+                "feedback": "While preemptive scheduling algorithms are used in real-time operating systems, they don't guarantee real-time responses; instead, a key characteristic is prioritizing tasks based on their deadlines.",
+                "hint": "Consider the requirements of real-time systems and how they impact operating system design",
+                "used_hint": false,
+                "time_taken": 2.416
+            },
+            {
+                "id": "4",
+                "text": "In an embedded system, what is the primary function of a device driver?",
+                "options": [
+                    "To manage user interactions",
+                    "To allocate resources efficiently",
+                    "To communicate with hardware devices",
+                    "To optimize performance"
+                ],
+                "correct_answer": "To communicate with hardware devices",
+                "selected_answer": "To communicate with hardware devices",
+                "is_correct": true,
+                "feedback": "The student's answer matches the correct definition of a device driver in an embedded system.",
+                "hint": "Think about how device drivers are used in embedded systems",
+                "used_hint": false,
+                "time_taken": 1.016
+            },
+            {
+                "id": "5",
+                "text": "A hybrid operating system combines features from both monolithic and microkernel designs. What is a key benefit of this approach?",
+                "options": [
+                    "Improved performance",
+                    "Increased security",
+                    "Better resource allocation",
+                    "Easier maintenance"
+                ],
+                "correct_answer": "Improved performance",
+                "selected_answer": "Easier maintenance",
+                "is_correct": false,
+                "feedback": "While hybrid operating systems can offer various benefits, 'easier maintenance' is not a key benefit specifically related to the combination of monolithic and microkernel designs.",
+                "hint": "Consider the trade-offs between different operating system architectures",
+                "used_hint": false,
+                "time_taken": 1.817
+            },
+            {
+                "id": "6",
+                "text": "In a distributed operating system, what is the primary function of a naming service?",
+                "options": [
+                    "To manage user accounts",
+                    "To allocate resources efficiently",
+                    "To resolve network addresses and names",
+                    "To optimize performance"
+                ],
+                "correct_answer": "To resolve network addresses and names",
+                "selected_answer": "To manage user accounts",
+                "is_correct": false,
+                "feedback": "The student's answer, 'To manage user accounts', is not directly related to the primary function of a naming service in a distributed operating system, which involves resolving network addresses and names.",
+                "hint": "Think about how different types of operating systems handle distributed system interactions",
+                "used_hint": false,
+                "time_taken": 1.383
+            },
+            {
+                "id": "7",
+                "text": "A transactional operating system is designed to ensure atomicity in database transactions. What is a key concept in this approach?",
+                "options": [
+                    "Locking mechanisms",
+                    "Optimistic concurrency control",
+                    "Pessimistic concurrency control",
+                    "Resource allocation"
+                ],
+                "correct_answer": "Locking mechanisms",
+                "selected_answer": "Optimistic concurrency control",
+                "is_correct": false,
+                "feedback": "Optimistic concurrency control is an approach that relies on checking for concurrent modifications, whereas the question specifically mentions atomicity in database transactions which locking mechanisms are designed to achieve.",
+                "hint": "Consider the requirements of transactional systems and how they impact operating system design",
+                "used_hint": false,
+                "time_taken": 1.417
+            },
+            {
+                "id": "8",
+                "text": "In an operating system, what is the purpose of a scheduling algorithm?",
+                "options": [
+                    "To manage user interactions",
+                    "To allocate resources efficiently",
+                    "To prioritize tasks based on their deadlines",
+                    "To optimize performance"
+                ],
+                "correct_answer": "To prioritize tasks based on their deadlines",
+                "selected_answer": "To prioritize tasks based on their deadlines",
+                "is_correct": false,
+                "feedback": "The student's answer is semantically identical to the correct answer but lacks specificity. A scheduling algorithm prioritizes tasks based on various factors, including deadlines, resource availability, and task priority.",
+                "hint": "Think about how different types of operating systems handle task management",
+                "used_hint": false,
+                "time_taken": 1.683
+            },
+            {
+                "id": "9",
+                "text": "A virtual machine monitor (VMM) is responsible for managing multiple virtual machines. What is a key benefit of using a VMM?",
+                "options": [
+                    "Improved security",
+                    "Increased performance",
+                    "Better resource allocation",
+                    "Easier maintenance"
+                ],
+                "correct_answer": "Improved security",
+                "selected_answer": "Improved security",
+                "is_correct": true,
+                "feedback": "Improved security is indeed a key benefit of using a VMM, as it provides an additional layer of protection for virtual machines by managing access and ensuring isolation.",
+                "hint": "Consider the benefits of virtualization and how it impacts operating system design",
+                "used_hint": false,
+                "time_taken": 1.8
+            }
+        ],
+        "ai_insights": {
+            "focus_concepts": [
+                "Operating Systems",
+                "Core Concepts",
+                "Problem Solving"
+            ],
+            "cheat_sheet": [
+                "Define Operating Systems in one line and write one example.",
+                "Create a compare/contrast table for two closely related ideas.",
+                "Practice 5 short MCQs and explain each answer in one sentence."
+            ],
+            "resources": [
+                {
+                    "title": "Operating Systems - GeeksforGeeks",
+                    "url": "https://www.geeksforgeeks.org/search/?q=Operating+Systems"
+                },
+                {
+                    "title": "Operating Systems - Tutorialspoint",
+                    "url": "https://www.tutorialspoint.com/search/Operating-Systems.htm"
+                },
+                {
+                    "title": "Operating Systems - YouTube quick revision",
+                    "url": "https://www.youtube.com/results?search_query=Operating+Systems+revision"
+                }
+            ],
+            "summary": "Focus on concept clarity and short iterative practice before the next quiz."
+        }
+    }
+]

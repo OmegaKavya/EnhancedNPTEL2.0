@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edubox - Personalized Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header class="navbar" style="justify-content: space-between; box-shadow: none; background: transparent;">
+        <a href="{{ url_for('index') }}" class="logo"
+            style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            Edubox
+        </a>
+        <div class="nav-buttons">
+            <a href="{{ url_for('login') }}" class="btn btn-outline" style="padding: 10px 25px;">Log in</a>
+            <a href="{{ url_for('register') }}" class="btn btn-primary"
+                style="padding: 10px 25px; width: auto; background-color: var(--secondary-color);">Register</a>
+        </div>
+    </header>
+
+    <header class="hero-container" style="min-height: 70vh;">
+        <div class="hero-content animate-fade">
+            <h1>Personalized <span>Learning.</span> Real-Time Adaptation.</h1>
+            <p>An intelligent learning system that understands how you learn and adapts accordingly. Find Unlimited
+                Courses That Match Your Niche to Hasten the Process of Developing Your Skills</p>
+
+            <div class="hero-btns">
+                <a href="{{ url_for('register') }}" class="btn btn-primary"
+                    style="width: auto; padding: 15px 40px; font-size: 1.1rem;">Get Started</a>
+            </div>
+        </div>
+
+        <div class="hero-image animate-fade">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="Student learning">
+        </div>
+    </header>
+
+    <section class="category-section">
+        <div class="category-header">
+            <p style="color: var(--secondary-color); font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">
+                ☀️ Our Courses</p>
+            <h2>Our Courses</h2>
+            <p style="color: var(--text-light);">For everyone of you, we offer a variety of distinctive benefits.</p>
+        </div>
+
+        <div class="cat-grid">
+            {% for course in courses %}
+            <div class="cat-card">
+                <div class="cat-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <h3>{{ course.title }}</h3>
+                <p>{{ course.description }}</p>
+                <div style="margin-top: 20px;">
+                    <a href="{{ url_for('login') }}" class="btn btn-primary"
+                        style="padding: 8px 20px; font-size: 0.9rem; width: auto; background-color: var(--primary-color);">View
+                        Course</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</body>
+
+</html>

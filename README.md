@@ -2,6 +2,10 @@
 
 A Flask-based adaptive learning platform that combines structured video learning, AI-generated quizzes, conceptual review, learner adaptation, and personalized revision support.
 
+## Architecture
+
+For full system architecture, module boundaries, adaptive-engine pipeline, and request lifecycle diagrams, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## What this project does
 
 This application is designed to turn a topic into a guided learning flow:

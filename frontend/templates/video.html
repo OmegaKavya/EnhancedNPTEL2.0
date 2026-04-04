@@ -1,506 +1,578 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ video.title }} - Edubox</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
     <style>
+      .module-layout {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 22px;
+        margin-bottom: 24px;
+      }
+
+      .submodule-panel {
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid rgba(30, 76, 143, 0.15);
+        padding: 14px;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+
+      .submodule-item {
+        border: 1px solid #e6eaf3;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: var(--transition);
+        background: #fff;
+      }
+
+      .submodule-item.active {
+        border-color: rgba(30, 76, 143, 0.45);
+        background: #f6f9ff;
+      }
+
+      .checkpoint-chip {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-top: 4px;
+      }
+
+      .video-player-container {
+        background: #000;
+        aspect-ratio: 16/9;
+        width: 100%;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .video-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .behavior-log {
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(0, 109, 91, 0.05);
+        border-radius: var(--border-radius);
+        font-size: 0.9rem;
+      }
+
+      #checkpoint-modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 10000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .checkpoint-card {
+        width: min(620px, 96vw);
+        background: #fff;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      }
+
+      .checkpoint-option {
+        border: 1px solid #dfe5f0;
+        border-radius: 8px;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+        cursor: pointer;
+      }
+
+      .checkpoint-option.selected {
+        border-color: rgba(30, 76, 143, 0.5);
+        background: #f3f8ff;
+      }
+
+      @media (max-width: 900px) {
         .module-layout {
-            display: grid;
-            grid-template-columns: 300px 1fr;
-            gap: 22px;
-            margin-bottom: 24px;
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* AI Loading Overlay */
+      #ai-loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 245, 0.98);
+        z-index: 9999;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        backdrop-filter: blur(8px);
+      }
+
+      .ai-brain {
+        width: 100px;
+        height: 100px;
+        color: var(--primary-color);
+        animation: bounce-pulse 2s infinite ease-in-out;
+      }
+
+      @keyframes bounce-pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          opacity: 0.8;
         }
 
-        .submodule-panel {
-            background: #fff;
-            border-radius: 12px;
-            border: 1px solid rgba(30, 76, 143, 0.15);
-            padding: 14px;
-            max-height: 70vh;
-            overflow-y: auto;
+        50% {
+          transform: scale(1.15);
+          opacity: 1;
+          filter: drop-shadow(0 0 15px rgba(0, 109, 91, 0.4));
+        }
+      }
+
+      .loading-text {
+        margin-top: 30px;
+        font-family: "Outfit", sans-serif;
+      }
+
+      .loading-dots:after {
+        content: " .";
+        animation: dots 1.5s steps(5, end) infinite;
+      }
+
+      @keyframes dots {
+        0%,
+        20% {
+          content: " .";
         }
 
-        .submodule-item {
-            border: 1px solid #e6eaf3;
-            border-radius: 10px;
-            padding: 10px;
-            margin-bottom: 10px;
-            cursor: pointer;
-            transition: var(--transition);
-            background: #fff;
+        40% {
+          content: " . .";
         }
 
-        .submodule-item.active {
-            border-color: rgba(30, 76, 143, 0.45);
-            background: #f6f9ff;
+        60% {
+          content: " . . .";
         }
 
-        .checkpoint-chip {
-            font-size: 0.78rem;
-            color: #6b7280;
-            margin-top: 4px;
+        80%,
+        100% {
+          content: "";
         }
-
-        .video-player-container {
-            background: #000;
-            aspect-ratio: 16/9;
-            width: 100%;
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .video-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .behavior-log {
-            margin-top: 30px;
-            padding: 20px;
-            background: rgba(0, 109, 91, 0.05);
-            border-radius: var(--border-radius);
-            font-size: 0.9rem;
-        }
-
-        #checkpoint-modal {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.55);
-            z-index: 10000;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .checkpoint-card {
-            width: min(620px, 96vw);
-            background: #fff;
-            border-radius: 14px;
-            padding: 20px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-        }
-
-        .checkpoint-option {
-            border: 1px solid #dfe5f0;
-            border-radius: 8px;
-            padding: 10px 12px;
-            margin-bottom: 8px;
-            cursor: pointer;
-        }
-
-        .checkpoint-option.selected {
-            border-color: rgba(30, 76, 143, 0.5);
-            background: #f3f8ff;
-        }
-
-        @media (max-width: 900px) {
-            .module-layout {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* AI Loading Overlay */
-        #ai-loading-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 245, 0.98);
-            z-index: 9999;
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            backdrop-filter: blur(8px);
-        }
-
-        .ai-brain {
-            width: 100px;
-            height: 100px;
-            color: var(--primary-color);
-            animation: bounce-pulse 2s infinite ease-in-out;
-        }
-
-        @keyframes bounce-pulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-                opacity: 0.8;
-            }
-
-            50% {
-                transform: scale(1.15);
-                opacity: 1;
-                filter: drop-shadow(0 0 15px rgba(0, 109, 91, 0.4));
-            }
-        }
-
-        .loading-text {
-            margin-top: 30px;
-            font-family: 'Outfit', sans-serif;
-        }
-
-        .loading-dots:after {
-            content: ' .';
-            animation: dots 1.5s steps(5, end) infinite;
-        }
-
-        @keyframes dots {
-
-            0%,
-            20% {
-                content: ' .';
-            }
-
-            40% {
-                content: ' . .';
-            }
-
-            60% {
-                content: ' . . .';
-            }
-
-            80%,
-            100% {
-                content: '';
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <a href="{{ url_for('index') }}" class="logo" style="text-decoration: none;">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-            </svg>
-            Edubox
-        </a>
-        <div class="nav-links">
-            <a href="{{ url_for('dashboard') }}">Dashboard</a>
-            <a href="{{ url_for('progress_page') }}">Progress</a>
-            <a href="{{ url_for('logout') }}" style="color: #e74c3c;">Logout</a>
-        </div>
+      <a
+        href="{{ url_for('index') }}"
+        class="logo"
+        style="text-decoration: none"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+        </svg>
+        Edubox
+      </a>
+      <div class="nav-links">
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('progress_page') }}">Progress</a>
+        <a href="{{ url_for('logout') }}" style="color: #e74c3c">Logout</a>
+      </div>
     </nav>
 
     <div class="dashboard-container">
-        <div class="video-header animate-fade">
-            <div>
-                <span
-                    style="color: var(--primary-color); font-weight: 600; text-transform: uppercase; font-size: 0.8rem;">Learning
-                    Module</span>
-                <h1 style="margin-top: 5px;">{{ video.title }}</h1>
-            </div>
-            <a href="{{ url_for('quiz_page', topic_id=video.id) }}" class="btn btn-primary" style="width: auto;"
-                onclick="showLoading()">Proceed
-                to Quiz</a>
+      <div class="video-header animate-fade">
+        <div>
+          <span
+            style="
+              color: var(--primary-color);
+              font-weight: 600;
+              text-transform: uppercase;
+              font-size: 0.8rem;
+            "
+            >Learning Module</span
+          >
+          <h1 style="margin-top: 5px">{{ video.title }}</h1>
         </div>
+        <a
+          href="{{ url_for('quiz_page', topic_id=video.id) }}"
+          class="btn btn-primary"
+          style="width: auto"
+          onclick="showLoading()"
+          >Proceed to Quiz</a
+        >
+      </div>
 
-        <!-- AI Loading Overlay HTML -->
-        <div id="ai-loading-overlay">
-            <div class="ai-brain">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path
-                        d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.46-2.54Z" />
-                    <path
-                        d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.46-2.54Z" />
-                </svg>
-            </div>
-            <div class="loading-text">
-                <h2 style="color: var(--text-dark); margin-bottom: 10px;">AI is crafting your quiz<span
-                        class="loading-dots"></span></h2>
-                <p style="color: var(--text-light); font-size: 1.1rem;">Analyzing your learning patterns and video
-                    context...</p>
-            </div>
+      <!-- AI Loading Overlay HTML -->
+      <div id="ai-loading-overlay">
+        <div class="ai-brain">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.46-2.54Z"
+            />
+            <path
+              d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.46-2.54Z"
+            />
+          </svg>
         </div>
-
-        <div class="module-layout animate-fade">
-            <aside class="submodule-panel">
-                <h3 style="margin-bottom: 10px; color: var(--primary-color);">NPTEL-style Submodules</h3>
-                <div id="submodule-list"></div>
-            </aside>
-
-            <div>
-                <div class="video-player-container">
-                    <div id="player"></div>
-                </div>
-
-                <div class="behavior-log">
-                    <h3 style="margin-bottom: 10px;">Contextual Behavior Tracking</h3>
-                    <p>
-                        We are tracking your learning patterns to adapt the difficulty levels.
-                        <span id="stat-pauses">Pauses: 0</span> |
-                        <span id="stat-seeks">Seeks: 0</span> |
-                        <span id="stat-percent">Watched: 0%</span>
-                    </p>
-                    <p id="active-submodule-label" style="margin-top: 8px; color: var(--text-light);"></p>
-                </div>
-            </div>
+        <div class="loading-text">
+          <h2 style="color: var(--text-dark); margin-bottom: 10px">
+            AI is crafting your quiz<span class="loading-dots"></span>
+          </h2>
+          <p style="color: var(--text-light); font-size: 1.1rem">
+            Analyzing your learning patterns and video context...
+          </p>
         </div>
+      </div>
+
+      <div class="module-layout animate-fade">
+        <aside class="submodule-panel">
+          <h3 style="margin-bottom: 10px; color: var(--primary-color)">
+            NPTEL-style Submodules
+          </h3>
+          <div id="submodule-list"></div>
+        </aside>
+
+        <div>
+          <div class="video-player-container">
+            <div id="player"></div>
+          </div>
+
+          <div class="behavior-log">
+            <h3 style="margin-bottom: 10px">Contextual Behavior Tracking</h3>
+            <p>
+              We are tracking your learning patterns to adapt the difficulty
+              levels.
+              <span id="stat-pauses">Pauses: 0</span> |
+              <span id="stat-seeks">Seeks: 0</span> |
+              <span id="stat-percent">Watched: 0%</span>
+            </p>
+            <p
+              id="active-submodule-label"
+              style="margin-top: 8px; color: var(--text-light)"
+            ></p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="checkpoint-modal">
-        <div class="checkpoint-card">
-            <div style="display:flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                <h3 style="margin: 0; color: var(--primary-color);">Quick Revision Checkpoint</h3>
-                <span style="font-size: 0.8rem; color: var(--text-light);">1-3 questions</span>
-            </div>
-            <p id="checkpoint-question" style="margin-bottom: 12px; font-weight: 600;"></p>
-            <div id="checkpoint-options"></div>
-            <p id="checkpoint-feedback" style="display:none; margin: 8px 0 12px;"></p>
-            <div style="display:flex; justify-content:flex-end; gap: 8px;">
-                <button id="checkpoint-submit" class="btn btn-primary" style="width:auto;" onclick="submitCheckpointAnswer()">Submit</button>
-                <button id="checkpoint-continue" class="btn" style="display:none; width:auto; border:1px solid var(--primary-color);" onclick="continueAfterCheckpoint()">Continue Video</button>
-            </div>
+      <div class="checkpoint-card">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+          "
+        >
+          <h3 style="margin: 0; color: var(--primary-color)">
+            Quick Revision Checkpoint
+          </h3>
+          <span style="font-size: 0.8rem; color: var(--text-light)"
+            >1-3 questions</span
+          >
         </div>
+        <p
+          id="checkpoint-question"
+          style="margin-bottom: 12px; font-weight: 600"
+        ></p>
+        <div id="checkpoint-options"></div>
+        <p
+          id="checkpoint-feedback"
+          style="display: none; margin: 8px 0 12px"
+        ></p>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button
+            id="checkpoint-submit"
+            class="btn btn-primary"
+            style="width: auto"
+            onclick="submitCheckpointAnswer()"
+          >
+            Submit
+          </button>
+          <button
+            id="checkpoint-continue"
+            class="btn"
+            style="
+              display: none;
+              width: auto;
+              border: 1px solid var(--primary-color);
+            "
+            onclick="continueAfterCheckpoint()"
+          >
+            Continue Video
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- YouTube IFrame API -->
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
-        function showLoading() {
-            document.getElementById('ai-loading-overlay').style.display = 'flex';
-        }
+      function showLoading() {
+          document.getElementById('ai-loading-overlay').style.display = 'flex';
+      }
 
-        let player;
-        const submodules = {{ submodules | tojson | safe }};
-        let activeSubmoduleIndex = 0;
-        let checkpointTriggered = new Set();
-        let activeCheckpoint = null;
-        let activeCheckpointAnswer = null;
-        let trackingData = {
-            pause_count: 0,
-            rewatch_count: 0,
-            skip_ratio: 0,
-            watch_percentage: 0,
-            last_time: 0,
-            total_duration: 0,
-            max_reached: 0
-        };
+      let player;
+      const submodules = {{ submodules | tojson | safe }};
+      let activeSubmoduleIndex = 0;
+      let checkpointTriggered = new Set();
+      let activeCheckpoint = null;
+      let activeCheckpointAnswer = null;
+      let trackingData = {
+          pause_count: 0,
+          rewatch_count: 0,
+          skip_ratio: 0,
+          watch_percentage: 0,
+          last_time: 0,
+          total_duration: 0,
+          max_reached: 0
+      };
 
-        function renderSubmodules() {
-            const list = document.getElementById('submodule-list');
-            if (!list) return;
+      function renderSubmodules() {
+          const list = document.getElementById('submodule-list');
+          if (!list) return;
 
-            list.innerHTML = '';
-            submodules.forEach((module, idx) => {
-                const item = document.createElement('div');
-                item.className = `submodule-item ${idx === activeSubmoduleIndex ? 'active' : ''}`;
-                item.innerHTML = `
-                    <strong>${module.title}</strong>
-                    <p style="margin:6px 0 0; font-size:0.84rem; color:#6b7280;">${module.objective}</p>
-                    <div class="checkpoint-chip">Checkpoints: ${(module.checkpoints || []).length}</div>
-                `;
-                item.onclick = () => switchSubmodule(idx);
-                list.appendChild(item);
-            });
-        }
+          list.innerHTML = '';
+          submodules.forEach((module, idx) => {
+              const item = document.createElement('div');
+              item.className = `submodule-item ${idx === activeSubmoduleIndex ? 'active' : ''}`;
+              item.innerHTML = `
+                  <strong>${module.title}</strong>
+                  <p style="margin:6px 0 0; font-size:0.84rem; color:#6b7280;">${module.objective}</p>
+                  <div class="checkpoint-chip">Checkpoints: ${(module.checkpoints || []).length}</div>
+              `;
+              item.onclick = () => switchSubmodule(idx);
+              list.appendChild(item);
+          });
+      }
 
-        function switchSubmodule(index) {
-            activeSubmoduleIndex = index;
-            checkpointTriggered = new Set();
-            trackingData.last_time = 0;
-            trackingData.max_reached = 0;
-            renderSubmodules();
+      function switchSubmodule(index) {
+          activeSubmoduleIndex = index;
+          checkpointTriggered = new Set();
+          trackingData.last_time = 0;
+          trackingData.max_reached = 0;
+          renderSubmodules();
 
-            const module = submodules[activeSubmoduleIndex];
-            document.getElementById('active-submodule-label').innerText = `Current: ${module.title}`;
+          const module = submodules[activeSubmoduleIndex];
+          document.getElementById('active-submodule-label').innerText = `Current: ${module.title}`;
 
-            if (player && typeof player.loadVideoById === 'function') {
-                const payload = {
-                    videoId: module.video_id,
-                    startSeconds: module.start_sec || 0
-                };
-                if (module.end_sec) payload.endSeconds = module.end_sec;
-                player.loadVideoById(payload);
-            }
-        }
+          if (player && typeof player.loadVideoById === 'function') {
+              const payload = {
+                  videoId: module.video_id,
+                  startSeconds: module.start_sec || 0
+              };
+              if (module.end_sec) payload.endSeconds = module.end_sec;
+              player.loadVideoById(payload);
+          }
+      }
 
-        function maybeTriggerCheckpoint(currentPercent) {
-            const module = submodules[activeSubmoduleIndex];
-            if (!module || !module.checkpoints) return;
+      function maybeTriggerCheckpoint(currentPercent) {
+          const module = submodules[activeSubmoduleIndex];
+          if (!module || !module.checkpoints) return;
 
-            const pending = module.checkpoints.find(cp => {
-                const key = `${module.id}:${cp.id}`;
-                return !checkpointTriggered.has(key) && currentPercent >= cp.trigger_pct;
-            });
+          const pending = module.checkpoints.find(cp => {
+              const key = `${module.id}:${cp.id}`;
+              return !checkpointTriggered.has(key) && currentPercent >= cp.trigger_pct;
+          });
 
-            if (!pending) return;
+          if (!pending) return;
 
-            const key = `${module.id}:${pending.id}`;
-            checkpointTriggered.add(key);
-            activeCheckpoint = pending;
-            activeCheckpointAnswer = null;
+          const key = `${module.id}:${pending.id}`;
+          checkpointTriggered.add(key);
+          activeCheckpoint = pending;
+          activeCheckpointAnswer = null;
 
-            if (player && typeof player.pauseVideo === 'function') {
-                player.pauseVideo();
-            }
+          if (player && typeof player.pauseVideo === 'function') {
+              player.pauseVideo();
+          }
 
-            const modal = document.getElementById('checkpoint-modal');
-            const q = document.getElementById('checkpoint-question');
-            const opts = document.getElementById('checkpoint-options');
-            const feedback = document.getElementById('checkpoint-feedback');
-            const submitBtn = document.getElementById('checkpoint-submit');
-            const continueBtn = document.getElementById('checkpoint-continue');
+          const modal = document.getElementById('checkpoint-modal');
+          const q = document.getElementById('checkpoint-question');
+          const opts = document.getElementById('checkpoint-options');
+          const feedback = document.getElementById('checkpoint-feedback');
+          const submitBtn = document.getElementById('checkpoint-submit');
+          const continueBtn = document.getElementById('checkpoint-continue');
 
-            q.innerText = pending.question;
-            opts.innerHTML = '';
-            feedback.style.display = 'none';
-            feedback.innerText = '';
-            submitBtn.style.display = 'inline-block';
-            continueBtn.style.display = 'none';
+          q.innerText = pending.question;
+          opts.innerHTML = '';
+          feedback.style.display = 'none';
+          feedback.innerText = '';
+          submitBtn.style.display = 'inline-block';
+          continueBtn.style.display = 'none';
 
-            pending.options.forEach((option, idx) => {
-                const div = document.createElement('div');
-                div.className = 'checkpoint-option';
-                div.innerText = option;
-                div.onclick = () => {
-                    activeCheckpointAnswer = idx;
-                    [...opts.children].forEach(c => c.classList.remove('selected'));
-                    div.classList.add('selected');
-                };
-                opts.appendChild(div);
-            });
+          pending.options.forEach((option, idx) => {
+              const div = document.createElement('div');
+              div.className = 'checkpoint-option';
+              div.innerText = option;
+              div.onclick = () => {
+                  activeCheckpointAnswer = idx;
+                  [...opts.children].forEach(c => c.classList.remove('selected'));
+                  div.classList.add('selected');
+              };
+              opts.appendChild(div);
+          });
 
-            modal.style.display = 'flex';
-        }
+          modal.style.display = 'flex';
+      }
 
-        function submitCheckpointAnswer() {
-            if (!activeCheckpoint) return;
-            const feedback = document.getElementById('checkpoint-feedback');
-            const submitBtn = document.getElementById('checkpoint-submit');
-            const continueBtn = document.getElementById('checkpoint-continue');
+      function submitCheckpointAnswer() {
+          if (!activeCheckpoint) return;
+          const feedback = document.getElementById('checkpoint-feedback');
+          const submitBtn = document.getElementById('checkpoint-submit');
+          const continueBtn = document.getElementById('checkpoint-continue');
 
-            const isCorrect = activeCheckpointAnswer === activeCheckpoint.correct_index;
-            feedback.style.display = 'block';
-            feedback.style.color = isCorrect ? '#1E4C8F' : '#b45309';
-            feedback.innerText = `${isCorrect ? '✅ Correct.' : '⚠️ Not quite.'} ${activeCheckpoint.explanation}`;
+          const isCorrect = activeCheckpointAnswer === activeCheckpoint.correct_index;
+          feedback.style.display = 'block';
+          feedback.style.color = isCorrect ? '#1E4C8F' : '#b45309';
+          feedback.innerText = `${isCorrect ? '✅ Correct.' : '⚠️ Not quite.'} ${activeCheckpoint.explanation}`;
 
-            submitBtn.style.display = 'none';
-            continueBtn.style.display = 'inline-block';
-        }
+          submitBtn.style.display = 'none';
+          continueBtn.style.display = 'inline-block';
+      }
 
-        function continueAfterCheckpoint() {
-            document.getElementById('checkpoint-modal').style.display = 'none';
-            activeCheckpoint = null;
-            activeCheckpointAnswer = null;
-            if (player && typeof player.playVideo === 'function') {
-                player.playVideo();
-            }
-        }
+      function continueAfterCheckpoint() {
+          document.getElementById('checkpoint-modal').style.display = 'none';
+          activeCheckpoint = null;
+          activeCheckpointAnswer = null;
+          if (player && typeof player.playVideo === 'function') {
+              player.playVideo();
+          }
+      }
 
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-                height: '100%',
-                width: '100%',
-                videoId: submodules[0].video_id,
-                playerVars: {
-                    'playsinline': 1,
-                    'modestbranding': 1,
-                    'rel': 0
-                },
-                events: {
-                    'onStateChange': onPlayerStateChange,
-                    'onReady': onPlayerReady
-                }
-            });
-        }
+      function onYouTubeIframeAPIReady() {
+          player = new YT.Player('player', {
+              height: '100%',
+              width: '100%',
+              videoId: submodules[0].video_id,
+              playerVars: {
+                  'playsinline': 1,
+                  'modestbranding': 1,
+                  'rel': 0
+              },
+              events: {
+                  'onStateChange': onPlayerStateChange,
+                  'onReady': onPlayerReady
+              }
+          });
+      }
 
-        function onPlayerReady(event) {
-            trackingData.total_duration = player.getDuration();
-            renderSubmodules();
-            switchSubmodule(0);
+      function onPlayerReady(event) {
+          trackingData.total_duration = player.getDuration();
+          renderSubmodules();
+          switchSubmodule(0);
 
-            // Restore user's last position
-            fetch('/api/user-progress/{{ video.id }}')
-                .then(res => res.json())
-                .then(data => {
-                    if (data.success && data.last_position > 0) {
-                        player.seekTo(data.last_position, true);
-                        trackingData.max_reached = data.last_position;
-                        document.getElementById('stat-percent').innerText = `Watched: ${data.watch_percentage}%`;
-                    }
-                })
-                .catch(err => console.log('No saved progress'));
+          // Restore user's last position
+          fetch('/api/user-progress/{{ video.id }}')
+              .then(res => res.json())
+              .then(data => {
+                  if (data.success && data.last_position > 0) {
+                      player.seekTo(data.last_position, true);
+                      trackingData.max_reached = data.last_position;
+                      document.getElementById('stat-percent').innerText = `Watched: ${data.watch_percentage}%`;
+                  }
+              })
+              .catch(err => console.log('No saved progress'));
 
-            setInterval(updateProgress, 2000);
-        }
+          setInterval(updateProgress, 2000);
+      }
 
-        function onPlayerStateChange(event) {
-            if (event.data == YT.PlayerState.PAUSED) {
-                trackingData.pause_count++;
-                document.getElementById('stat-pauses').innerText = `Pauses: ${trackingData.pause_count}`;
-                saveTrackingData();
-            }
-        }
+      function onPlayerStateChange(event) {
+          if (event.data == YT.PlayerState.PAUSED) {
+              trackingData.pause_count++;
+              document.getElementById('stat-pauses').innerText = `Pauses: ${trackingData.pause_count}`;
+              saveTrackingData();
+          }
+      }
 
-        function updateProgress() {
-            if (!player || typeof player.getCurrentTime !== 'function') return;
+      function updateProgress() {
+          if (!player || typeof player.getCurrentTime !== 'function') return;
 
-            const currentTime = player.getCurrentTime();
-            const currentModule = submodules[activeSubmoduleIndex];
+          const currentTime = player.getCurrentTime();
+          const currentModule = submodules[activeSubmoduleIndex];
 
-            let startSec = (currentModule && currentModule.start_sec) || 0;
-            let endSec = (currentModule && currentModule.end_sec) || trackingData.total_duration || player.getDuration();
-            if (!endSec || endSec <= startSec) endSec = player.getDuration();
+          let startSec = (currentModule && currentModule.start_sec) || 0;
+          let endSec = (currentModule && currentModule.end_sec) || trackingData.total_duration || player.getDuration();
+          if (!endSec || endSec <= startSec) endSec = player.getDuration();
 
-            const localTime = Math.max(0, currentTime - startSec);
-            const localDuration = Math.max(1, endSec - startSec);
-            const modulePercent = Math.round((localTime / localDuration) * 100);
+          const localTime = Math.max(0, currentTime - startSec);
+          const localDuration = Math.max(1, endSec - startSec);
+          const modulePercent = Math.round((localTime / localDuration) * 100);
 
-            // Detect Seek
-            if (Math.abs(currentTime - trackingData.last_time) > 3) {
-                if (currentTime < trackingData.last_time) {
-                    trackingData.rewatch_count++;
-                    document.getElementById('stat-seeks').innerText = `Seeks (Rewatch): ${trackingData.rewatch_count}`;
-                }
-            }
+          // Detect Seek
+          if (Math.abs(currentTime - trackingData.last_time) > 3) {
+              if (currentTime < trackingData.last_time) {
+                  trackingData.rewatch_count++;
+                  document.getElementById('stat-seeks').innerText = `Seeks (Rewatch): ${trackingData.rewatch_count}`;
+              }
+          }
 
-            // Update Max Reached
-            if (currentTime > trackingData.max_reached) {
-                trackingData.max_reached = currentTime;
-            }
+          // Update Max Reached
+          if (currentTime > trackingData.max_reached) {
+              trackingData.max_reached = currentTime;
+          }
 
-            trackingData.watch_percentage = Math.round((trackingData.max_reached / trackingData.total_duration) * 100);
-            document.getElementById('stat-percent').innerText = `Watched: ${trackingData.watch_percentage}%`;
+          trackingData.watch_percentage = Math.round((trackingData.max_reached / trackingData.total_duration) * 100);
+          document.getElementById('stat-percent').innerText = `Watched: ${trackingData.watch_percentage}%`;
 
-            maybeTriggerCheckpoint(modulePercent);
+          maybeTriggerCheckpoint(modulePercent);
 
-            trackingData.last_time = currentTime;
+          trackingData.last_time = currentTime;
 
-            if (trackingData.watch_percentage % 10 === 0) { // Save every 10%
-                saveTrackingData();
-            }
-        }
+          if (trackingData.watch_percentage % 10 === 0) { // Save every 10%
+              saveTrackingData();
+          }
+      }
 
-        async function saveTrackingData() {
-            try {
-                await fetch('/api/video-track', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        topic_id: '{{ video.id }}',
-                        ...trackingData
-                    })
-                });
-            } catch (err) {
-                console.error("Tracking save failed", err);
-            }
-        }
+      async function saveTrackingData() {
+          try {
+              await fetch('/api/video-track', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                      topic_id: '{{ video.id }}',
+                      ...trackingData
+                  })
+              });
+          } catch (err) {
+              console.error("Tracking save failed", err);
+          }
+      }
     </script>
-</body>
-
+  </body>
 </html>

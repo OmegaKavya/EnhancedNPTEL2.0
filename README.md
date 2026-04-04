@@ -17,6 +17,7 @@ The project is built for topic mastery, not generic study-habit questions. Quizz
 ## Core features
 
 ### 1. Adaptive quiz generation
+
 - Generates topic-based MCQ quizzes using local Ollama models.
 - Questions adapt to learner mastery and speed.
 - Quiz length can vary from 7 to 15 questions.
@@ -24,6 +25,7 @@ The project is built for topic mastery, not generic study-habit questions. Quizz
 - Question repetition is minimized across attempts.
 
 ### 2. Conceptual question quality
+
 - Questions are generated to test understanding of the topic itself.
 - The quiz flow is designed to move from:
   - basic definitions and foundations,
@@ -32,35 +34,41 @@ The project is built for topic mastery, not generic study-habit questions. Quizz
 - Study-habit or generic best-practice style questions are intentionally avoided.
 
 ### 3. Quiz review and explanations
+
 - Every attempt can be reviewed later.
 - Shows correct answer, user answer, score, and performance details.
 - Includes AI-generated insights and focus areas.
 - Helps the learner understand where reasoning broke down.
 
 ### 4. AI insights and revision support
+
 - Generates topic-wise revision support after a quiz.
 - Highlights focus concepts.
 - Builds a quick cheat-sheet style summary.
 - Suggests related learning resources.
 
 ### 5. Video learning with submodules
+
 - Each topic page is structured into submodules.
 - Submodules provide a more guided learning path instead of a single video-only experience.
 - Includes checkpoint mini-quizzes during video playback.
 - Checkpoints help reinforce concepts before moving ahead.
 
 ### 6. Timer and hint behavior
+
 - Quiz questions use per-question timing.
 - Hints unlock during the question flow.
 - When time expires, the quiz advances instead of terminating.
 
 ### 7. Dashboard analytics
+
 - Tracks progress and quiz history.
 - Shows review links for past attempts.
 - Displays topic-wise heatmaps.
 - Surfaces mastery, score, timing, and learning trends.
 
 ### 8. Local Ollama integration
+
 - Uses Ollama for quiz generation and evaluation.
 - Default model is `llama3.2`.
 - Falls back safely when the model is unavailable.
@@ -92,41 +100,49 @@ The project is built for topic mastery, not generic study-habit questions. Quizz
 ## Setup
 
 ### 1. Clone the repository
+
 ```bash
 git clone <your-github-repo-url>
 cd UpdatedEnancedNPTEL-main
 ```
 
 ### 2. Create and activate a virtual environment
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Install and start Ollama
+
 Make sure Ollama is installed and running locally.
 
 Check available models:
+
 ```bash
 ollama list
 ```
 
 If needed, pull the default model:
+
 ```bash
 ollama pull llama3.2
 ```
 
 ### 5. Run the app
+
 ```bash
 python app.py
 ```
 
 Then open the local address shown in the terminal, usually:
+
 ```bash
 http://127.0.0.1:5000
 ```
@@ -134,27 +150,32 @@ http://127.0.0.1:5000
 ## How the learning flow works
 
 ### Landing and authentication
+
 - Users can register and log in.
 - Session data is used to manage access.
 
 ### Dashboard
+
 - Shows the learner’s progress.
 - Displays attempts, topic mastery, and heatmap-style insights.
 - Provides quick access to video review and quiz review pages.
 
 ### Topic video page
+
 - Presents the video lesson.
 - Breaks the topic into submodules.
 - Adds checkpoint quizzes during playback.
 - Encourages active learning instead of passive watching.
 
 ### Quiz page
+
 - Loads a topic-specific adaptive quiz.
 - Shows a revision helper while the quiz is being prepared.
 - Uses timed questions and adaptive difficulty.
 - Unlocks hints during the quiz.
 
 ### Quiz submission and review
+
 - Calculates score and mastery.
 - Saves detailed attempt snapshots.
 - Generates AI insights.
@@ -175,18 +196,17 @@ If you want a clean reset, you can clear the relevant JSON files before starting
 ## Troubleshooting
 
 ### Ollama is not responding
+
 - Confirm Ollama is running locally.
 - Check `http://127.0.0.1:11434/api/tags`.
 - Make sure `llama3.2` is installed.
 
 ### Quiz generation feels generic
+
 - Ensure the topic has correct metadata.
 - If transcript data is unavailable, the app uses fallback context.
 - The quiz generator is tuned for conceptual topic questions, not generic learning tips.
 
 ### Missing Python packages
+
 - Reinstall dependencies with `pip install -r requirements.txt`.
-
-## License
-
-Add a license if you plan to publish the repository publicly.

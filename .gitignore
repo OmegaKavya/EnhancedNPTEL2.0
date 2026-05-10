@@ -68,5 +68,6 @@ build/
 ollama_models/
 
 # ─── Local diagnostic / one-off scripts (not part of core codebase) ──────────
-# (No current root-level one-off scripts)
-
+diag_yt.py
+fix_quiz.py
+test_ollama.py
